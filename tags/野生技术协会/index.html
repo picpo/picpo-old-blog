@@ -88,14 +88,14 @@
             
               <li class="tag-list-container">
                 <a href="javascript:;">标签</a>
-                <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Google学术/">Google学术</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/">Hexo</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Pixiv/">Pixiv</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/万物起源/">万物起源</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/野生技术协会/">野生技术协会</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/音乐/">音乐</a><span class="tag-list-count">1</span></li></ul>
+                <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Google学术/">Google学术</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/">Hexo</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Pixiv/">Pixiv</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/万物起源/">万物起源</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/野生技术协会/">野生技术协会</a><span class="tag-list-count">3</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/音乐/">音乐</a><span class="tag-list-count">1</span></li></ul>
               </li>
             
           
             
               <li class="archive-list-container">
                 <a href="javascript:;">归档</a>
-                <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/">2018</a><span class="archive-list-count">4</span></li></ul>
+                <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/">2018</a><span class="archive-list-count">5</span></li></ul>
               </li>
             
           
@@ -150,6 +150,53 @@
       
           <h1>野生技术协会</h1>
 
+
+  
+  
+    <div class="post-list">
+  
+
+    <div class="post-list-item article">
+      <h3 class="article-header">
+        <a href="/2018/09/02/如何利用OneDrive同步Hexo文件夹/" >
+  如何利用OneDrive同步Hexo文件夹
+</a>
+
+      </h3>
+      
+
+      <div class="article-info">
+        <a href="/2018/09/02/如何利用OneDrive同步Hexo文件夹/"><span class="article-date">
+  2018-09-02
+</span>
+</a>
+        
+
+        
+	<span class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/野生技术协会/">野生技术协会</a></li></ul>
+	</span>
+
+
+      </div>
+      <div class="article-entry">
+        
+          <p>以前都是把Hexo文件夹copy到OneDrive里，感觉仅仅是一个网盘备份功能。  </p>
+<p>有网友说：“现在每次都得把相关文件拷贝到这个OneDrive文件夹里，才能同步到云上。可以不可以通过设置，让本地某个文件夹的内容，自动同步到云上，省去手动拷贝的麻烦？”</p>
+<p>当然有办法啦！就是利用mklink符号链接来让OneDrive自动同步本地文件夹而不改变文件夹的原位置，非常的方便，解决了一直苦恼的同步问题。 </p>
+<p>具体操作：开始菜单处右键打开命令提示符（以管理员身份），输入命令：</p>
+<pre><code>mklink /d C:\Users\你的用户名\OneDrive\文件夹名 本地盘符:\文件夹名
+</code></pre><p>比如说我要同步Hexo文件夹，就是：  </p>
+<pre><code>mklink /d C:\Users\Administrator\OneDrive\blog F:\Hexo\blog  
+</code></pre><p>注意：命令后面和盘符前面有空格  </p>
+
+        
+      </div>
+    </div>
+
+  
+    </div>
+  
 
   
   
