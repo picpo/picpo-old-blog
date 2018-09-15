@@ -1,36 +1,131 @@
 <!DOCTYPE html>
-<html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-Hans">
 <head>
-  <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
 
 
 
-<title>
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
-    归档
   
-</title>
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+
 
 <meta name="keywords" content="PiCpo的个人主页">
 <meta property="og:type" content="website">
 <meta property="og:title" content="PiCpo的个人主页">
 <meta property="og:url" content="http://yoursite.com/archives/index.html">
 <meta property="og:site_name" content="PiCpo的个人主页">
-<meta property="og:locale" content="zh-CN">
+<meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="PiCpo的个人主页">
 
 
-  <link rel="alternative" href="/atom.xml" title="PiCpo的个人主页" type="application/atom+xml">
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
 
 
 
-  <link rel="icon" href="/favicon.png">
+  <link rel="canonical" href="http://yoursite.com/archives/"/>
 
 
-<link rel="stylesheet" href="/perfect-scrollbar/css/perfect-scrollbar.min.css">
-<link rel="stylesheet" href="/styles/main.css">
+
+
+
+  <title>归档 | PiCpo的个人主页</title>
+  
+
+
 
 
 
@@ -38,521 +133,714 @@
 
 
 </head>
-<body
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
   
-    class="monochrome"
   
-  >
-  <div class="mobile-header">
-  <button class="sidebar-toggle" type="button">
-    <span class="icon-bar"></span>
-    <span class="icon-bar"></span>
-    <span class="icon-bar"></span>
-  </button>
-  <a class="title" href="/">PiCpo的个人主页</a>
+    
+  
+
+  <div class="container sidebar-position-left page-archive">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">PiCpo的个人主页</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
 </div>
 
-  <div class="main-container">
-    <div class="sidebar">
-  <div class="header">
-    <h1 class="title"><a href="/">PiCpo的个人主页</a></h1>
-    
-    <div class="info">
-      <div class="content">
-        
-        
-          <div class="author">PiCpo</div>
-        
-      </div>
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
       
-        <div class="avatar">
+        
+        <li class="menu-item menu-item-首页">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-标签">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-归档">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-相册">
+          <a href="/album/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            相册
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-关于">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  
+  
+  
+  <div class="post-block archive">
+    <div id="posts" class="posts-collapse">
+      <span class="archive-move-on"></span>
+
+      <span class="archive-page-counter">
+        
+        
+        
           
-            <a href="http://wx4.sinaimg.cn/mw690/006QkgcIly1fuk10ytaehj309q09qwei.jpg"><img src="http://wx4.sinaimg.cn/mw690/006QkgcIly1fuk10ytaehj309q09qwei.jpg"></a>
+        
+        嗯..! 目前共计 7 篇日志。 继续努力。
+      </span>
+
+      
+
+        
+        
+        
+
+        
           
-        </div>
-      
-    </div>
-  </div>
-  <div class="body">
-    
-      
-        <ul class="nav">
-          
-            
-              <li class="category-list-container">
-                <a href="javascript:;">分类</a>
-                
-              </li>
-            
-          
-            
-              <li class="tag-list-container">
-                <a href="javascript:;">标签</a>
-                <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Google学术/">Google学术</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/">Hexo</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Pixiv/">Pixiv</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/万物起源/">万物起源</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/不定期更新的音乐电台/">不定期更新的音乐电台</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/野生技术协会/">野生技术协会</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/音乐/">音乐</a><span class="tag-list-count">2</span></li></ul>
-              </li>
-            
-          
-            
-              <li class="archive-list-container">
-                <a href="javascript:;">归档</a>
-                <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/">2018</a><span class="archive-list-count">7</span></li></ul>
-              </li>
-            
-          
-        </ul>
-      
-        <ul class="nav">
-          
-            
-              <li>
-                <a href="/" title="Homepage">Homepage</a>
-              </li>
-            
-          
-            
-              <li>
-                <a href="/archives" title="By Year">By Year</a>
-              </li>
-            
-          
-        </ul>
-      
-        <ul class="nav">
-          
-            
-              <li>
-                <a href="https://github.com/picpo?tab=repositories" title="我的Github项目仓库" target="_blank" rel="noopener">我的Github项目仓库</a>
-              </li>
-            
-          
-            
-              <li>
-                <a href="https://www.zhihu.com/people/picpo/activities" title="我的知乎" target="_blank" rel="noopener">我的知乎</a>
-              </li>
-            
-          
-            
-              <li>
-                <a href="mailto:2587188250@qq.com" title="我的E-mail">我的E-mail</a>
-              </li>
-            
-          
-        </ul>
-      
-    
-  </div>
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=110 src="//music.163.com/outchain/player?type=0&id=2367659820&auto=0&height=90"></iframe>
-</div>
-
-    <div class="main-content">
-      
-        <div style="max-width: 1000px">
-      
-          
-
-  
-  
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <h1><a href="/archives/2018" class="archive-year">2018</a></h1>
-        </div>
-        <div class="post-list">
-    
-  
-
-    <div class="post-list-item article">
-      <h3 class="article-header">
-        <a href="/2018/09/08/Dreamweaver的使用方法/" >
-  Dreamweaver的使用方法
-</a>
-
-      </h3>
-      
-
-      <div class="article-info">
-        <a href="/2018/09/08/Dreamweaver的使用方法/"><span class="article-date">
-  2018-09-08
-</span>
-</a>
-        
-
-        
-	<span class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/野生技术协会/">野生技术协会</a></li></ul>
-	</span>
-
-
-      </div>
-      <div class="article-entry">
-        
-          <p><img src="http://wx4.sinaimg.cn/small/006QkgcIly1fv2cbflixsj306o06o74l.jpg" alt=""><br>[图片来自百度百科]<br>Adobe Dreamweaver，简称“DW”，中文名称 “梦想编织者”，最初为美国MACROMEDIA公司开发 ，2005年被Adobe公司收购。DW是集网页制作和管理网站于一身的所见即所得网页代码编辑器。利用对 HTML、CSS、JavaScript等内容的支持，设计师和程序员可以在几乎任何地方快速制作和进行网站建设。<br>Adobe Dreamweaver使用所见即所得的接口，亦有HTML（标准通用标记语言下的一个应用）编辑的功能，借助经过简化的智能编码引擎，轻松地创建、编码和管理动态网站。访问代码提示，即可快速了解 HTML、CSS 和其他Web 标准。使用视觉辅助功能减少错误并提高网站开发速度。<br>废话不多说：<a href="https://pan.baidu.com/s/1y8foa9RVmRb8HhhRyn3xhg" target="_blank" rel="noopener">点我下载</a> 密码：63v4<br>本人超中意这个软件，因为这的确是我看到过得最好用的HTML编辑器（笑）。<br><img src="http://wx2.sinaimg.cn/mw690/006QkgcIgy1fv256ly110j304k03cgm5.jpg" alt=""><br>现在我的adobe家族多了一名成员了。<br>另外，我在站点加了一个html文件，是一个彩蛋，不知道你能否发现呢？</p>
-
-        
-      </div>
-    </div>
-
-  
-
-  
-  
-    
-  
-
-    <div class="post-list-item article">
-      <h3 class="article-header">
-        <a href="/2018/09/05/不定期更新的音乐电台-00/" >
-  不定期更新的音乐电台-00
-</a>
-
-      </h3>
-      
-
-      <div class="article-info">
-        <a href="/2018/09/05/不定期更新的音乐电台-00/"><span class="article-date">
-  2018-09-05
-</span>
-</a>
-        
-
-        
-	<span class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/不定期更新的音乐电台/">不定期更新的音乐电台</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/音乐/">音乐</a></li></ul>
-	</span>
-
-
-      </div>
-      <div class="article-entry">
-        
-          <p>本期是“不定期更新的音乐电台”的第00期，也就是这个系列（maybe）的demo期，以后肯定会改进的。<br>其实也就是把喜欢的音乐分享出来，或者自己留个回忆。<br>本期的主题是JOJO，说实在的，我真的没看过这么好康的动画，主题曲超燃（可能只是对于替身使者们来说是这样的）。  </p>
-<p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=27566958&auto=0&height=66"></iframe><br>
-          <p>
-            <a href="/2018/09/05/不定期更新的音乐电台-00/">
-              阅读全文
-            </a>
-          </p>
-        
-      </div>
-    </div>
-
-  
-
-  
-  
-    
-  
-
-    <div class="post-list-item article">
-      <h3 class="article-header">
-        <a href="/2018/09/02/如何利用OneDrive同步Hexo文件夹/" >
-  如何利用OneDrive同步Hexo文件夹
-</a>
-
-      </h3>
-      
-
-      <div class="article-info">
-        <a href="/2018/09/02/如何利用OneDrive同步Hexo文件夹/"><span class="article-date">
-  2018-09-02
-</span>
-</a>
-        
-
-        
-	<span class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/野生技术协会/">野生技术协会</a></li></ul>
-	</span>
-
-
-      </div>
-      <div class="article-entry">
-        
-          <p>以前都是把Hexo文件夹copy到OneDrive里，感觉仅仅是一个网盘备份功能。  </p>
-<p>有网友说：“现在每次都得把相关文件拷贝到这个OneDrive文件夹里，才能同步到云上。可以不可以通过设置，让本地某个文件夹的内容，自动同步到云上，省去手动拷贝的麻烦？”</p>
-<p>当然有办法啦！就是利用mklink符号链接来让OneDrive自动同步本地文件夹而不改变文件夹的原位置，非常的方便，解决了一直苦恼的同步问题。 </p>
-<p>具体操作：开始菜单处右键打开命令提示符（以管理员身份），输入命令：</p>
-<pre><code>mklink /d C:\Users\你的用户名\OneDrive\文件夹名 本地盘符:\文件夹名
-</code></pre><p>比如说我要同步Hexo文件夹，就是：  </p>
-<pre><code>mklink /d C:\Users\Administrator\OneDrive\blog F:\Hexo\blog  
-</code></pre><p>注意：命令后面和盘符前面有空格  </p>
-
-        
-      </div>
-    </div>
-
-  
-
-  
-  
-    
-  
-
-    <div class="post-list-item article">
-      <h3 class="article-header">
-        <a href="/2018/08/26/Pixiv改host/" >
-  Pixiv改host
-</a>
-
-      </h3>
-      
-
-      <div class="article-info">
-        <a href="/2018/08/26/Pixiv改host/"><span class="article-date">
-  2018-08-26
-</span>
-</a>
-        
-
-        
-	<span class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Google学术/">Google学术</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Pixiv/">Pixiv</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/野生技术协会/">野生技术协会</a></li></ul>
-	</span>
-
-
-      </div>
-      <div class="article-entry">
-        
-          <p>上不去p站的朋友们…又到要改host的时间了[允悲]  </p>
-<pre><code>210.129.120.52 www.pixiv.net  
-210.140.131.144 source.pixiv.net  
-210.129.120.42 accounts.pixiv.net  
-210.140.131.144 imgaz.pixiv.net   
-210.140.174.37 sketch.pixiv.net ​
-</code></pre>
-        
-      </div>
-    </div>
-
-  
-
-  
-  
-    
-  
-
-    <div class="post-list-item article">
-      <h3 class="article-header">
-        <a href="/2018/08/26/Listary的使用方法/" >
-  Listary的使用方法
-</a>
-
-      </h3>
-      
-
-      <div class="article-info">
-        <a href="/2018/08/26/Listary的使用方法/"><span class="article-date">
-  2018-08-26
-</span>
-</a>
-        
-
-        
-	<span class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/野生技术协会/">野生技术协会</a></li></ul>
-	</span>
-
-
-      </div>
-      <div class="article-entry">
-        
-          <p>Listary 是一款实用的搜索工具 ，它能给“我的电脑”（资源管理器）加上许多智能命令，含有收藏文件夹，快速打开最近浏览的文件夹，快速显示/隐藏文件扩展名等等实用功能。能给你日常的收藏和整理文件提高效率。  </p>
-<p>下载地址： <a href="https://pan.baidu.com/s/1cW5RC1h-4aHKtWs34sMhzg" target="_blank" rel="noopener">点我</a> 密码：84sk  </p>
-<p>1.解压压缩文件,得到”Listary.Pro.5.00.2410.fix”文件夹,双击”Listry.exe”进行安装 </p>
-<p><img src="http://wx3.sinaimg.cn/small/006QkgcIgy1fumxwdpudyj30gz03gjrh.jpg" alt=""></p>
-<p>2.安装完毕之后选择中文语言,之后完全退出软件(包括关闭进程里面的服务”ListaryService.exe(32位)”) </p>
-<p><img src="http://wx4.sinaimg.cn/small/006QkgcIgy1fumxxvwjdyj30go0b0t9q.jpg" alt="">  </p>
-<p>3.打开”gen.crack”文件夹，将其中的”MSVCP140.dll”到你安装该软件的目录,比如(“F:\ProgramFiles\Listary”) </p>
-<p><img src="http://wx2.sinaimg.cn/small/006QkgcIgy1fumxz7uvloj30ki04bgls.jpg" alt=""></p>
-<p>4.打开桌面”Listary”,在桌面的右下角对其右键选择”关于”-“升级到Listary Pro”出现注册框,将相关信息对应输入第四部的注册框中完成注册  </p>
-<pre><code>Name: Mike Rountree 
-Email: soft@instant-demo.com
-
-JE4V8T3M96PWT4SUCNZNVZ37XKLBU2QW 
-N64LEJQ3VHY7MPL6KY2R5SQZ76QFFTKP 
-VVE8JBVEAME8MMBRHRGF2P6MAJG7ZSQY 
-MUY2PGTQ2EG3W2YHTU2CFWL7SE6THU3Q 
-TAL3U894S2BWA9629EFCXYYYG3S65WEQ 
-5R234G26AT52UWD27PNENP4GR2EKKDK6
-</code></pre><p><img src="http://wx2.sinaimg.cn/small/006QkgcIgy1fumy1b2ac5j30go081aa7.jpg" alt="">  </p>
-<p>激活成功的标志:  </p>
-<p><img src="http://wx4.sinaimg.cn/small/006QkgcIly1fumy2zxx92j30go05adfx.jpg" alt="">  </p>
-<p>5.关闭升级(一定要记得关闭，因为这个破解补丁跟账号密码是针对这版本的，如果你更新了，那么破解就会失效啦)<br><img src="http://wx4.sinaimg.cn/small/006QkgcIly1fumy44xkpjj30lg08rjsh.jpg" alt=""></p>
-<p>本文转载于: <a href="http://www.sdifen.com/listarypro5.html" target="_blank" rel="noopener">Listary Pro 5.00.2410 Windows破解版 | 史蒂芬周的博客</a></p>
-
-        
-      </div>
-    </div>
-
-  
-
-  
-  
-    
-  
-
-    <div class="post-list-item article">
-      <h3 class="article-header">
-        <a href="/2018/08/16/如何添加网易云音乐外链播放器/" >
-  如何添加网易云音乐外链播放器
-</a>
-
-      </h3>
-      
-
-      <div class="article-info">
-        <a href="/2018/08/16/如何添加网易云音乐外链播放器/"><span class="article-date">
-  2018-08-16
-</span>
-</a>
-        
-
-        
-	<span class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/音乐/">音乐</a></li></ul>
-	</span>
-
-
-      </div>
-      <div class="article-entry">
-        
-          <p>看到一些网上知名的博客经常有自己的背景音乐，所以也萌发了自己装一个网易云音乐插件的想法。<br>就在旁边的标签栏上是博客的背景音乐。<br><img src="http://wx2.sinaimg.cn/mw690/006QkgcIly1fuk11oabjnj30km0j4q3p.jpg" alt=""><br>那么HTML代码该复制在哪呢？想起来我的主题是chan，那么先打开F:\Hexo\blog\themes\chan\layout_partials找一下。<br><img src="http://wx4.sinaimg.cn/mw690/006QkgcIly1fuk11onn1xj316r0k7jun.jpg" alt=""><br>找到了sidebar.ejs文件，用记事本打开。<br><img src="http://wx3.sinaimg.cn/mw690/006QkgcIly1fuk11p1vcxj313y0l475l.jpg" alt=""><br>复制一下，效果第二张图（也可以说如左边的标签栏一样）。<br>至于音乐插件的的选择，也可以根据自己的需求定制。</p>
-
-        
-      </div>
-    </div>
-
-  
-
-  
-  
-    
-  
-
-    <div class="post-list-item article">
-      <h3 class="article-header">
-        <a href="/2018/08/15/我的第一篇博客/" >
-  我的第一篇博客
-</a>
-
-      </h3>
-      
-
-      <div class="article-info">
-        <a href="/2018/08/15/我的第一篇博客/"><span class="article-date">
-  2018-08-15
-</span>
-</a>
-        
-
-        
-	<span class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/万物起源/">万物起源</a></li></ul>
-	</span>
-
-
-      </div>
-      <div class="article-entry">
-        
-          <p>这里是PiCpo的第一篇博客文。<br>这篇文章纪念一个网站的诞生，在她的诞生中，有这些人（或组织）提供了帮助：<br>PiCpo（2333恬不知耻的站长在第一位）；<br>Hexo，感谢他们为这个小站提供了博客代码支持；<br><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>，感谢他们为这个小站提供了代码托管服务；<br><a href="https://xeondu.github.io" target="_blank" rel="noopener">天心度</a>，他帮我写了这第一篇具有纪念意义的博客文；<br>最后，最感谢的是安徽省无为中学的一位2016级的大佬ZR，没有他，我根本就不知道Hexo。  </p>
-<p>以上</p>
-
-        
-      </div>
-    </div>
-
-  
-
-
-
-
-
-
-          <div class="main-footer">
-  
-    © 2018 PiCpo的个人主页 - Powered by <a href="http://hexo.io" target="_blank">Hexo</a> - Theme <a href="https://github.com/denjones/hexo-theme-chan" target="_blank">Chan</a>
-  
-</div>
-
-      
-        </div>
-      
-    </div>
-  </div>
-  <script src="//apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-
-  <link rel="stylesheet" href="/PhotoSwipe/photoswipe.css">
-  <link rel="stylesheet" href="/PhotoSwipe/default-skin/default-skin.css">
-
-  <!-- Root element of PhotoSwipe. Must have class pswp. -->
-  <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-    <!-- Background of PhotoSwipe.
-             It's a separate element as animating opacity is faster than rgba(). -->
-    <div class="pswp__bg"></div>
-
-    <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
-
-      <!-- Container that holds slides.
-                PhotoSwipe keeps only 3 of them in the DOM to save memory.
-                Don't modify these 3 pswp__item elements, data is added later on. -->
-      <div class="pswp__container">
-        <div class="pswp__item"></div>
-        <div class="pswp__item"></div>
-        <div class="pswp__item"></div>
-      </div>
-
-      <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-      <div class="pswp__ui pswp__ui--hidden">
-
-        <div class="pswp__top-bar">
-
-          <!--  Controls are self-explanatory. Order can be changed. -->
-
-          <div class="pswp__counter"></div>
-
-          <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-
-          <button class="pswp__button pswp__button--share" title="Share"></button>
-
-          <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-
-          <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-
-          <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-          <!-- element will get class pswp__preloader--active when preloader is running -->
-          <div class="pswp__preloader">
-            <div class="pswp__preloader__icn">
-              <div class="pswp__preloader__cut">
-                <div class="pswp__preloader__donut"></div>
-              </div>
-            </div>
+          <div class="collection-title">
+            <h1 class="archive-year" id="archive-year-2018">2018</h1>
           </div>
-        </div>
+        
+        
 
-        <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-          <div class="pswp__share-tooltip"></div>
-        </div>
+        
 
-        <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
 
-        <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+      <h2 class="post-title">
+        
+            <a class="post-title-link" href="/2018/09/08/Dreamweaver的使用方法/" itemprop="url">
+              
+                <span itemprop="name">Dreamweaver的使用方法</span>
+              
+            </a>
+        
+      </h2>
 
-        <div class="pswp__caption">
-          <div class="pswp__caption__center"></div>
-        </div>
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2018-09-08T14:54:11+08:00"
+              content="2018-09-08" >
+          09-08
+        </time>
       </div>
+
+    </header>
+  </article>
+
+
+
+      
+
+        
+        
+        
+
+        
+        
+
+        
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h2 class="post-title">
+        
+            <a class="post-title-link" href="/2018/09/05/不定期更新的音乐电台-00/" itemprop="url">
+              
+                <span itemprop="name">不定期更新的音乐电台-00</span>
+              
+            </a>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2018-09-05T12:25:10+08:00"
+              content="2018-09-05" >
+          09-05
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+
+      
+
+        
+        
+        
+
+        
+        
+
+        
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h2 class="post-title">
+        
+            <a class="post-title-link" href="/2018/09/02/如何利用OneDrive同步Hexo文件夹/" itemprop="url">
+              
+                <span itemprop="name">如何利用OneDrive同步Hexo文件夹</span>
+              
+            </a>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2018-09-02T09:57:44+08:00"
+              content="2018-09-02" >
+          09-02
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+
+      
+
+        
+        
+        
+
+        
+        
+
+        
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h2 class="post-title">
+        
+            <a class="post-title-link" href="/2018/08/26/Pixiv改host/" itemprop="url">
+              
+                <span itemprop="name">Pixiv改host</span>
+              
+            </a>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2018-08-26T11:41:17+08:00"
+              content="2018-08-26" >
+          08-26
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+
+      
+
+        
+        
+        
+
+        
+        
+
+        
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h2 class="post-title">
+        
+            <a class="post-title-link" href="/2018/08/26/Listary的使用方法/" itemprop="url">
+              
+                <span itemprop="name">Listary的使用方法</span>
+              
+            </a>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2018-08-26T10:52:16+08:00"
+              content="2018-08-26" >
+          08-26
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+
+      
+
+        
+        
+        
+
+        
+        
+
+        
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h2 class="post-title">
+        
+            <a class="post-title-link" href="/2018/08/16/如何添加网易云音乐外链播放器/" itemprop="url">
+              
+                <span itemprop="name">如何添加网易云音乐外链播放器</span>
+              
+            </a>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2018-08-16T11:58:28+08:00"
+              content="2018-08-16" >
+          08-16
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+
+      
+
+        
+        
+        
+
+        
+        
+
+        
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
+
+      <h2 class="post-title">
+        
+            <a class="post-title-link" href="/2018/08/15/我的第一篇博客/" itemprop="url">
+              
+                <span itemprop="name">我的第一篇博客</span>
+              
+            </a>
+        
+      </h2>
+
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2018-08-15T18:51:50+08:00"
+              content="2018-08-15" >
+          08-15
+        </time>
+      </div>
+
+    </header>
+  </article>
+
+
+
+      
+
+    </div>
+  </div>
+  
+  
+  
+
+  
+
+
+
+          </div>
+          
+
+
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
     </div>
   </div>
 
-  <script src="/PhotoSwipe/photoswipe.js"></script>
-  <script src="/PhotoSwipe/photoswipe-ui-default.js"></script>
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="http://wx4.sinaimg.cn/mw690/006QkgcIly1fuk10ytaehj309q09qwei.jpg"
+                alt="PiCpo" />
+            
+              <p class="site-author-name" itemprop="name">PiCpo</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives">
+              
+                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">7</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/picpo" target="_blank" title="我的GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>我的GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="https://www.zhihu.com/people/picpo/activities" target="_blank" title="我的知乎">
+                      
+                        <i class="fa fa-fw fa-globe"></i>我的知乎</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="mailto:2587188250@qq.com" target="_blank" title="我的邮箱">
+                      
+                        <i class="fa fa-fw fa-envelope"></i>我的邮箱</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+
+      
+
+    </div>
+  </aside>
 
 
-<script src="/perfect-scrollbar/js/min/perfect-scrollbar.min.js"></script>
-<script src="/scripts/main.js"></script>
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">PiCpo</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
 
 </body>
 </html>
