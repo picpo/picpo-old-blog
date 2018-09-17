@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[Dreamweaver的使用方法]]></title>
+    <url>%2F2018%2F09%2F08%2FDreamweaver%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95%2F</url>
+    <content type="text"><![CDATA[[图片来自百度百科]Adobe Dreamweaver，简称“DW”，中文名称 “梦想编织者”，最初为美国MACROMEDIA公司开发 ，2005年被Adobe公司收购。DW是集网页制作和管理网站于一身的所见即所得网页代码编辑器。利用对 HTML、CSS、JavaScript等内容的支持，设计师和程序员可以在几乎任何地方快速制作和进行网站建设。Adobe Dreamweaver使用所见即所得的接口，亦有HTML（标准通用标记语言下的一个应用）编辑的功能，借助经过简化的智能编码引擎，轻松地创建、编码和管理动态网站。访问代码提示，即可快速了解 HTML、CSS 和其他Web 标准。使用视觉辅助功能减少错误并提高网站开发速度。废话不多说：点我下载 密码：63v4本人超中意这个软件，因为这的确是我看到过得最好用的HTML编辑器（笑）。现在我的adobe家族多了一名成员了。另外，我在站点加了一个html文件，是一个彩蛋，不知道你能否发现呢？]]></content>
+      <tags>
+        <tag>野生技术协会</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[不定期更新的音乐电台-00]]></title>
+    <url>%2F2018%2F09%2F05%2F%E4%B8%8D%E5%AE%9A%E6%9C%9F%E6%9B%B4%E6%96%B0%E7%9A%84%E9%9F%B3%E4%B9%90%E7%94%B5%E5%8F%B0-00%2F</url>
+    <content type="text"><![CDATA[本期是“不定期更新的音乐电台”的第00期，也就是这个系列（maybe）的demo期，以后肯定会改进的。其实也就是把喜欢的音乐分享出来，或者自己留个回忆。本期的主题是JOJO，说实在的，我真的没看过这么好康的动画，主题曲超燃（可能只是对于替身使者们来说是这样的）。 歌词：作曲 : 田中公平作词 : 藤林聖子空ッ！こぼれ落ちた 二つの星が天空！所倏然落下 成对的流星光と暗の水面 吸い込まれてゆく被逐渐吞噬溶入 光暗相交的水面引き合うように 重なる波纹交叠的波纹 宛如相互牵引夸りの道を行く者に对踏上荣耀之路的人太阳の导きを赐予太阳的指引野望の果てを目指す者に而对朝着野心的尽头 迈进的人生贽を献上活祭震えるほど心越是颤抖 心脏燃え尽きるほど热く就越像要燃烧殆尽般炙热その手から放て鼓动凭着手中释放的律动体涨る勇気で与全身爆发的勇气迷い无き覚悟に「喝采」をッ！对毫无迷惘的觉悟给予“喝彩”！その血の运命～这段血之宿命～JO—————JO！ 赛ッ！は投げられた 进むしかない骰子！已经投出 唯有继续前进奇妙な螺旋の中 転がり続ける在奇妙的螺旋中 不停回转永远を彷徨う 冒険者在永远中彷徨的冒险者恐怖乗り越え立つ者に对屹立在恐惧巅峰之人黄金の魂を赐予黄金之魂そして出会った二人のために随后为相遇的两人吹响戦いを决战的号角幕が开いたような仿佛业已开幕终わりなき物语永无终结的史诗命がぶつかる火花用生命所迸发的火花青春の日々を照らせよ照耀这段 青春的岁月吧君という未来に「幸运」をッ！对以你为名的未来 献上“幸运”！その血の运命～这段血之宿命～JO—————JO！ 二度とほどけない 络み合った运命不会再度分开 笼络交缠的命运全てはここから始まっていたのさ一切的故事 皆从此处书写震えるほど心越是颤抖 心脏燃え尽きるほど热く就越像要燃烧殆尽般炙热その手から放て鼓动凭着手中释放的律动体涨る勇気で与全身爆发的勇气迷い无き覚悟に「喝采」をッ！对毫无迷惘的觉悟给予“喝彩”！幕が开いたような仿佛业已开幕终わりなき物语永无终结的史诗命がぶつかる火花用生命所迸发的火花青春の日々を照らせよ照耀这段 青春的岁月吧君という未来に「幸运」をッ！对以你为名的未来 献上“幸运”！その血の运命～这段血之宿命～JO—————JO！(heat up)]]></content>
+      <tags>
+        <tag>音乐</tag>
+        <tag>不定期更新的音乐电台</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[如何利用OneDrive同步Hexo文件夹]]></title>
+    <url>%2F2018%2F09%2F02%2F%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A8OneDrive%E5%90%8C%E6%AD%A5Hexo%E6%96%87%E4%BB%B6%E5%A4%B9%2F</url>
+    <content type="text"><![CDATA[以前都是把Hexo文件夹copy到OneDrive里，感觉仅仅是一个网盘备份功能。 有网友说：“现在每次都得把相关文件拷贝到这个OneDrive文件夹里，才能同步到云上。可以不可以通过设置，让本地某个文件夹的内容，自动同步到云上，省去手动拷贝的麻烦？” 当然有办法啦！就是利用mklink符号链接来让OneDrive自动同步本地文件夹而不改变文件夹的原位置，非常的方便，解决了一直苦恼的同步问题。 具体操作：开始菜单处右键打开命令提示符（以管理员身份），输入命令： mklink /d C:\Users\你的用户名\OneDrive\文件夹名 本地盘符:\文件夹名 比如说我要同步Hexo文件夹，就是： mklink /d C:\Users\Administrator\OneDrive\blog F:\Hexo\blog 注意：命令后面和盘符前面有空格]]></content>
+      <tags>
+        <tag>野生技术协会</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Pixiv改host]]></title>
+    <url>%2F2018%2F08%2F26%2FPixiv%E6%94%B9host%2F</url>
+    <content type="text"><![CDATA[上不去p站的朋友们…又到要改host的时间了[允悲] 210.129.120.52 www.pixiv.net 210.140.131.144 source.pixiv.net 210.129.120.42 accounts.pixiv.net 210.140.131.144 imgaz.pixiv.net 210.140.174.37 sketch.pixiv.net ​]]></content>
+      <tags>
+        <tag>野生技术协会</tag>
+        <tag>Pixiv</tag>
+        <tag>Google学术</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Listary的使用方法]]></title>
+    <url>%2F2018%2F08%2F26%2FListary%E7%9A%84%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95%2F</url>
+    <content type="text"><![CDATA[Listary 是一款实用的搜索工具 ，它能给“我的电脑”（资源管理器）加上许多智能命令，含有收藏文件夹，快速打开最近浏览的文件夹，快速显示/隐藏文件扩展名等等实用功能。能给你日常的收藏和整理文件提高效率。 下载地址： 点我 密码：84sk 1.解压压缩文件,得到”Listary.Pro.5.00.2410.fix”文件夹,双击”Listry.exe”进行安装 2.安装完毕之后选择中文语言,之后完全退出软件(包括关闭进程里面的服务”ListaryService.exe(32位)”) 3.打开”gen.crack”文件夹，将其中的”MSVCP140.dll”到你安装该软件的目录,比如(“F:\ProgramFiles\Listary”) 4.打开桌面”Listary”,在桌面的右下角对其右键选择”关于”-“升级到Listary Pro”出现注册框,将相关信息对应输入第四部的注册框中完成注册 Name: Mike Rountree Email: soft@instant-demo.com JE4V8T3M96PWT4SUCNZNVZ37XKLBU2QW N64LEJQ3VHY7MPL6KY2R5SQZ76QFFTKP VVE8JBVEAME8MMBRHRGF2P6MAJG7ZSQY MUY2PGTQ2EG3W2YHTU2CFWL7SE6THU3Q TAL3U894S2BWA9629EFCXYYYG3S65WEQ 5R234G26AT52UWD27PNENP4GR2EKKDK6 激活成功的标志: 5.关闭升级(一定要记得关闭，因为这个破解补丁跟账号密码是针对这版本的，如果你更新了，那么破解就会失效啦) 本文转载于: Listary Pro 5.00.2410 Windows破解版 | 史蒂芬周的博客]]></content>
+      <tags>
+        <tag>野生技术协会</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[如何添加网易云音乐外链播放器]]></title>
+    <url>%2F2018%2F08%2F16%2F%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E5%A4%96%E9%93%BE%E6%92%AD%E6%94%BE%E5%99%A8%2F</url>
+    <content type="text"><![CDATA[看到一些网上知名的博客经常有自己的背景音乐，所以也萌发了自己装一个网易云音乐插件的想法。就在旁边的标签栏上是博客的背景音乐。那么HTML代码该复制在哪呢？想起来我的主题是chan，那么先打开F:\Hexo\blog\themes\chan\layout_partials找一下。找到了sidebar.ejs文件，用记事本打开。复制一下，效果第二张图（也可以说如左边的标签栏一样）。至于音乐插件的的选择，也可以根据自己的需求定制。]]></content>
+      <tags>
+        <tag>音乐</tag>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[我的第一篇博客]]></title>
+    <url>%2F2018%2F08%2F15%2F%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%2F</url>
+    <content type="text"><![CDATA[这里是PiCpo的第一篇博客文。这篇文章纪念一个网站的诞生，在她的诞生中，有这些人（或组织）提供了帮助：PiCpo（2333恬不知耻的站长在第一位）；Hexo，感谢他们为这个小站提供了博客代码支持；GitHub，感谢他们为这个小站提供了代码托管服务；天心度，他帮我写了这第一篇具有纪念意义的博客文；最后，最感谢的是安徽省无为中学的一位2016级的大佬ZR，没有他，我根本就不知道Hexo。 以上]]></content>
+      <tags>
+        <tag>万物起源</tag>
+      </tags>
+  </entry>
+</search>
