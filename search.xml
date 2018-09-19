@@ -49,8 +49,8 @@
     <url>%2F2018%2F08%2F16%2F%E5%A6%82%E4%BD%95%E6%B7%BB%E5%8A%A0%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E5%A4%96%E9%93%BE%E6%92%AD%E6%94%BE%E5%99%A8%2F</url>
     <content type="text"><![CDATA[看到一些网上知名的博客经常有自己的背景音乐，所以也萌发了自己装一个网易云音乐插件的想法。就在旁边的标签栏上是博客的背景音乐。那么HTML代码该复制在哪呢？想起来我的主题是chan，那么先打开F:\Hexo\blog\themes\chan\layout_partials找一下。找到了sidebar.ejs文件，用记事本打开。复制一下，效果第二张图（也可以说如左边的标签栏一样）。至于音乐插件的的选择，也可以根据自己的需求定制。]]></content>
       <tags>
-        <tag>Hexo</tag>
         <tag>音乐</tag>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
