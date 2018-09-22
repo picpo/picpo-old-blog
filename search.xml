@@ -5,8 +5,8 @@
     <url>%2F2018%2F09%2F20%2F%E5%85%B3%E4%BA%8E%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%EF%BC%8C%E5%85%B3%E4%BA%8Esitemap%2F</url>
     <content type="text"><![CDATA[之前我花了一段时间学习了一下sitemap，这个文件有什么用呢？这个文件可以将你的网站所有url提交给搜索引擎，然后你的网站就能在“ＸＸ搜索”中找到了。 很简单，就像我这样就行了。（我用的是Google，需要魔法才能访问） 这样就好了。可以试一下site:。 site:www.perpicpo.cn 非常ok。 相比之下，百度的表现真是太丢人了。 Google一下子就发现了我的sitemap，很快就收了录。 而为了让百度的爬虫发现我的sitemap，我重做了４个文件，都不行。 真的垃圾。]]></content>
       <tags>
-        <tag>Google学术</tag>
         <tag>Hexo</tag>
+        <tag>Google学术</tag>
         <tag>搜索引擎</tag>
       </tags>
   </entry>
@@ -33,8 +33,8 @@
     <content type="text"><![CDATA[上不去p站的朋友们…又到要改host的时间了[允悲] 210.129.120.52 www.pixiv.net 210.140.131.144 source.pixiv.net 210.129.120.42 accounts.pixiv.net 210.140.131.144 imgaz.pixiv.net 210.140.174.37 sketch.pixiv.net ​]]></content>
       <tags>
         <tag>野生技术协会</tag>
-        <tag>Pixiv</tag>
         <tag>Google学术</tag>
+        <tag>Pixiv</tag>
       </tags>
   </entry>
   <entry>
