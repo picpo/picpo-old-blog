@@ -683,18 +683,22 @@
 
   <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
   <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-   <script type="text/javascript">
-        var gitalk = new Gitalk({
-          clientID: '7feb5be9f995b78f93eb',
-          clientSecret: '75e35cbf42bf9b69ce3eed52757b79ade3d39897',
-          repo: 'comment',
-          owner: 'picpo',
-          admin: ['picpo'],
-          id: location.pathname,
-          distractionFreeMode: 'true'
-        })
-        gitalk.render('gitalk-container')           
-       </script>
+
++ <script src="/js/src/md5.min.js"></script>
+
+  <script type="text/javascript">
+    var gitalk = new Gitalk({
+      clientID: '7feb5be9f995b78f93eb',
+      clientSecret: '75e35cbf42bf9b69ce3eed52757b79ade3d39897',
+      repo: 'comment',
+      owner: 'picpo',
+      admin: ['picpo'],
+-     id: location.pathname,
++     id: md5(location.pathname),
+      distractionFreeMode: 'true'
+    })
+    gitalk.render('gitalk-container')
+  </script>
 
 
   

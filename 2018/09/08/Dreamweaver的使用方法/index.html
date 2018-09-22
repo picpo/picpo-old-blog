@@ -96,7 +96,7 @@
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://wx4.sinaimg.cn/small/006QkgcIly1fv2cbflixsj306o06o74l.jpg">
 <meta property="og:image" content="http://wx2.sinaimg.cn/mw690/006QkgcIgy1fv256ly110j304k03cgm5.jpg">
-<meta property="og:updated_time" content="2018-09-22T04:21:12.683Z">
+<meta property="og:updated_time" content="2018-09-22T04:26:53.962Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Dreamweaver的使用方法">
 <meta name="twitter:description" content="[图片来自百度百科]Adobe Dreamweaver，简称“DW”，中文名称 “梦想编织者”，最初为美国MACROMEDIA公司开发 ，2005年被Adobe公司收购。DW是集网页制作和管理网站于一身的所见即所得网页代码编辑器。利用对 HTML、CSS、JavaScript等内容的支持，设计师和程序员可以在几乎任何地方快速制作和进行网站建设。Adobe Dreamweaver使用所见即所得的接口">
@@ -793,18 +793,22 @@
 
   <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
   <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-   <script type="text/javascript">
-        var gitalk = new Gitalk({
-          clientID: '7feb5be9f995b78f93eb',
-          clientSecret: '75e35cbf42bf9b69ce3eed52757b79ade3d39897',
-          repo: 'comment',
-          owner: 'picpo',
-          admin: ['picpo'],
-          id: location.pathname,
-          distractionFreeMode: 'true'
-        })
-        gitalk.render('gitalk-container')           
-       </script>
+
++ <script src="/js/src/md5.min.js"></script>
+
+  <script type="text/javascript">
+    var gitalk = new Gitalk({
+      clientID: '7feb5be9f995b78f93eb',
+      clientSecret: '75e35cbf42bf9b69ce3eed52757b79ade3d39897',
+      repo: 'comment',
+      owner: 'picpo',
+      admin: ['picpo'],
+-     id: location.pathname,
++     id: md5(location.pathname),
+      distractionFreeMode: 'true'
+    })
+    gitalk.render('gitalk-container')
+  </script>
 
 
   
