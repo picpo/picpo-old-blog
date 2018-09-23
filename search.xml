@@ -5,8 +5,8 @@
     <url>%2F2018%2F09%2F22%2F%E7%BB%99%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E5%BC%80%E5%90%AFgitalk%2F</url>
     <content type="text"><![CDATA[gitalk是一个基于 Github Issue 和 Preact 开发的评论插件。详情Demo可见：https://gitalk.github.io/折腾了半天我终于开启了我的评论功能。教程我就懒得写了，献上两篇大佬写的的博文。Hexo NexT主题中集成gitalk评论系统： https://asdfv1929.github.io/2018/01/20/gitalk/【已解决】Hexo NexT使用Gitalk未找到相关的Issues进行评论Error:Validation Failed：https://liujunzhou.cn/2018/8/10/gitalk-error/最后，我再说一下，为什么选择gitalk而不选择gitment。因为gitment不好用。]]></content>
       <tags>
-        <tag>Hexo</tag>
         <tag>野生技术协会</tag>
+        <tag>Hexo</tag>
         <tag>gitalk</tag>
       </tags>
   </entry>
@@ -15,8 +15,8 @@
     <url>%2F2018%2F09%2F20%2F%E5%85%B3%E4%BA%8E%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%EF%BC%8C%E5%85%B3%E4%BA%8Esitemap%2F</url>
     <content type="text"><![CDATA[之前我花了一段时间学习了一下sitemap，这个文件有什么用呢？这个文件可以将你的网站所有url提交给搜索引擎，然后你的网站就能在“ＸＸ搜索”中找到了。 很简单，就像我这样就行了。（我用的是Google，需要魔法才能访问） 这样就好了。可以试一下site:。 site:www.perpicpo.cn 非常ok。 相比之下，百度的表现真是太丢人了。 Google一下子就发现了我的sitemap，很快就收了录。 而为了让百度的爬虫发现我的sitemap，我重做了４个文件，都不行。 真的垃圾。]]></content>
       <tags>
-        <tag>Hexo</tag>
         <tag>Google学术</tag>
+        <tag>Hexo</tag>
         <tag>搜索引擎</tag>
       </tags>
   </entry>
@@ -33,8 +33,8 @@
     <url>%2F2018%2F09%2F02%2F%E5%A6%82%E4%BD%95%E5%88%A9%E7%94%A8OneDrive%E5%90%8C%E6%AD%A5Hexo%E6%96%87%E4%BB%B6%E5%A4%B9%2F</url>
     <content type="text"><![CDATA[以前都是把Hexo文件夹copy到OneDrive里，感觉仅仅是一个网盘备份功能。 有网友说：“现在每次都得把相关文件拷贝到这个OneDrive文件夹里，才能同步到云上。可以不可以通过设置，让本地某个文件夹的内容，自动同步到云上，省去手动拷贝的麻烦？” 当然有办法啦！就是利用mklink符号链接来让OneDrive自动同步本地文件夹而不改变文件夹的原位置，非常的方便，解决了一直苦恼的同步问题。 具体操作：开始菜单处右键打开命令提示符（以管理员身份），输入命令： mklink /d C:\Users\你的用户名\OneDrive\文件夹名 本地盘符:\文件夹名 比如说我要同步Hexo文件夹，就是： mklink /d C:\Users\Administrator\OneDrive\blog F:\Hexo\blog 注意：命令后面和盘符前面有空格]]></content>
       <tags>
-        <tag>Hexo</tag>
         <tag>野生技术协会</tag>
+        <tag>Hexo</tag>
       </tags>
   </entry>
   <entry>
