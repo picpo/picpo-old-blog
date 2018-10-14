@@ -86,18 +86,18 @@
 
 
 
-<meta name="description" content="前几天八windows 7给升级为了windows 10，当然这绝对不是闲着没事干。是因为我的电脑死活装不上arduino的驱动—-估计是系统文件出了点问题。既然装好了windows 10，那一定要试一下写arduino的程序啊。刚好今天考完了该死的月考，我没事干就写了一个流水灯的实验程序。  1234567891011121314151617181920 * Copyright(C), 2018">
+<meta name="description" content="前几天八windows 7给升级为了windows 10，当然这绝对不是闲着没事干。是因为我的电脑死活装不上arduino的驱动—-估计是系统文件出了点问题。   既然装好了windows 10，那一定要试一下写arduino的程序啊。刚好今天考完了该死的月考，我没事干就写了一个流水灯的实验程序。  1234567891011121314151617181920 * Copyright(C), 2">
 <meta name="keywords" content="野生技术协会,arduino">
 <meta property="og:type" content="article">
 <meta property="og:title" content="arduino流水灯实验">
 <meta property="og:url" content="https://www.perpicpo.cn/2018/10/14/arduino流水灯实验/index.html">
 <meta property="og:site_name" content="PiCpo&#39;s  Home">
-<meta property="og:description" content="前几天八windows 7给升级为了windows 10，当然这绝对不是闲着没事干。是因为我的电脑死活装不上arduino的驱动—-估计是系统文件出了点问题。既然装好了windows 10，那一定要试一下写arduino的程序啊。刚好今天考完了该死的月考，我没事干就写了一个流水灯的实验程序。  1234567891011121314151617181920 * Copyright(C), 2018">
+<meta property="og:description" content="前几天八windows 7给升级为了windows 10，当然这绝对不是闲着没事干。是因为我的电脑死活装不上arduino的驱动—-估计是系统文件出了点问题。   既然装好了windows 10，那一定要试一下写arduino的程序啊。刚好今天考完了该死的月考，我没事干就写了一个流水灯的实验程序。  1234567891011121314151617181920 * Copyright(C), 2">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-10-14T10:58:25.761Z">
+<meta property="og:updated_time" content="2018-10-14T10:59:50.586Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="arduino流水灯实验">
-<meta name="twitter:description" content="前几天八windows 7给升级为了windows 10，当然这绝对不是闲着没事干。是因为我的电脑死活装不上arduino的驱动—-估计是系统文件出了点问题。既然装好了windows 10，那一定要试一下写arduino的程序啊。刚好今天考完了该死的月考，我没事干就写了一个流水灯的实验程序。  1234567891011121314151617181920 * Copyright(C), 2018">
+<meta name="twitter:description" content="前几天八windows 7给升级为了windows 10，当然这绝对不是闲着没事干。是因为我的电脑死活装不上arduino的驱动—-估计是系统文件出了点问题。   既然装好了windows 10，那一定要试一下写arduino的程序啊。刚好今天考完了该死的月考，我没事干就写了一个流水灯的实验程序。  1234567891011121314151617181920 * Copyright(C), 2">
 
 
 
@@ -371,7 +371,8 @@
       
 
       
-        <p>前几天八windows 7给升级为了windows 10，当然这绝对不是闲着没事干。是因为我的电脑死活装不上arduino的驱动—-估计是系统文件出了点问题。<br>既然装好了windows 10，那一定要试一下写arduino的程序啊。刚好今天考完了该死的月考，我没事干就写了一个流水灯的实验程序。 </p>
+        <p>前几天八windows 7给升级为了windows 10，当然这绝对不是闲着没事干。是因为我的电脑死活装不上arduino的驱动—-估计是系统文件出了点问题。  </p>
+<p>既然装好了windows 10，那一定要试一下写arduino的程序啊。刚好今天考完了该死的月考，我没事干就写了一个流水灯的实验程序。 </p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"> * Copyright(C), 2018-2038, KenRobot.com</span><br><span class="line"> * FileName: 我的项目.ino</span><br><span class="line"> * Author: 啃萝卜</span><br><span class="line"> * Create: 2018/10/14</span><br><span class="line"> * Modify: 2018/10/14</span><br><span class="line"> */</span><br><span class="line">int num[4]=&#123;8,9,10,11&#125;; </span><br><span class="line">void setup() &#123;</span><br><span class="line">for(int start=0;start&lt;4;start++)&#123;</span><br><span class="line">    pinMode(num[start],OUTPUT);</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void loop() &#123;</span><br><span class="line">for(int start=0;start&lt;4;start++)&#123;</span><br><span class="line">    digitalWrite(num[start],HIGH);</span><br><span class="line">    delay(500);</span><br><span class="line">    digitalWrite(num[start],LOW);</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <p>这个程序非常简单，非常入门。嗯，但是——因为该死的破面包板，总是搞得我的led灯接触不良。</p>
 
