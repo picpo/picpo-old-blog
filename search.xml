@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Markdown2注册码]]></title>
+    <url>%2F2018%2F10%2F23%2FMarkdown2%E6%B3%A8%E5%86%8C%E7%A0%81%2F</url>
+    <content type="text"></content>
+  </entry>
+  <entry>
     <title><![CDATA[arduino流水灯实验]]></title>
     <url>%2F2018%2F10%2F14%2Farduino%E6%B5%81%E6%B0%B4%E7%81%AF%E5%AE%9E%E9%AA%8C%2F</url>
     <content type="text"><![CDATA[前几天八windows 7给升级为了windows 10，当然这绝对不是闲着没事干。是因为我的电脑死活装不上arduino的驱动——估计是系统文件出了点问题。既然装好了windows 10，那一定要试一下写arduino的程序啊。刚好今天考完了该死的月考，我没事干就写了一个流水灯的实验程序。 1234567891011121314151617181920 * Copyright(C), 2018-2038, KenRobot.com * FileName: 我的项目.ino * Author: 啃萝卜 * Create: 2018/10/14 * Modify: 2018/10/14 */int num[4]=&#123;8,9,10,11&#125;; void setup() &#123;for(int start=0;start&lt;4;start++)&#123; pinMode(num[start],OUTPUT);&#125;&#125;void loop() &#123;for(int start=0;start&lt;4;start++)&#123; digitalWrite(num[start],HIGH); delay(500); digitalWrite(num[start],LOW);&#125;&#125; 这个程序非常简单，非常入门。嗯，但是——因为该死的破面包板，总是搞得我的led灯接触不良。]]></content>
