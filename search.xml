@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Hexo添加live2d看板动画]]></title>
+    <url>%2F2018%2F12%2F01%2FHexo%E6%B7%BB%E5%8A%A0live2d%E7%9C%8B%E6%9D%BF%E5%8A%A8%E7%94%BB%2F</url>
+    <content type="text"><![CDATA[首先，安装npm包：1npm install --save hexo-helper-live2d 然后在hexo的配置文件_config.yml中添加如下配置:12345678910111213141516live2d: enable: true scriptFrom: local pluginRootPath: live2dw/ pluginJsPath: lib/ pluginModelPath: assets/ tagMode: false debug: false model: use: live2d-widget-model-shizuku display: position: right width: 150 height: 300 mobile: show: true 详细配置可以参考文档：https://github.com/EYHN/hexo-helper-live2d/blob/master/README.zh-CN.md然后下载模型:1npm install live2d-widget-model-shizuku 模型名称可以到这里参考:https://github.com/xiazeyu/live2d-widget-models一些模型的预览可以在这里:https://huaji8.top/post/live2d-plugin-2.0/]]></content>
+      <tags>
+        <tag>野生技术协会</tag>
+        <tag>Hexo</tag>
+        <tag>Github</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[周一报告]]></title>
     <url>%2F2018%2F11%2F30%2F%E5%91%A8%E4%B8%80%E6%8A%A5%E5%91%8A%2F</url>
     <content type="text"><![CDATA[亲爱的老师，同学们：大家早上好！今天我所作报告的题目是“静中学，学中静”。 自从我们学校开展“入校即静，入班即学”的活动以来，我们班的同学们在各方面执行的都还不错。学校特地开展了这项活动，是为了给各位同学营造一个良好的学习氛围，并能够高效率地进行学习。 西方哲人有一句名言，说“虔诚不是目的，而是手段，是通过灵魂的最纯洁的宁静而达到最高修养手段。”而三国时期蜀汉丞相、杰出的政治家、军事家诸葛亮也曾说：“非澹泊无以明志，非宁静无以致远。” 作为一名学生，活泼固然是要有的。但只有排除杂念，专心致志，将心思全部集中起来，才能有所收获，有所成就。“入校即静，入班即学”就是要求我们心静。试想，如果进教室比较早的同学，几个围在一块谈天说地，那么后进教室的同学就很难快速有效的投入到学习状态中。但如果进班较早的同学在高声朗读，别人也就会高声朗读；他们进班以后认真学习，后来的同学也就少了一些困扰。 因此，作为我们班的同学，我希望大家可以将“入校即静，入班即学”贯彻下去，而不仅仅是几天或几周，我更希望，同学们能将这信条奉为今后的人生准则。]]></content>
