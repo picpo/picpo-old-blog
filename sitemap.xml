@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.perpicpo.cn/about/index.html</loc>
+    
+    <lastmod>2018-12-02T04:39:37.684Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.perpicpo.cn/album/index.html</loc>
     
     <lastmod>2018-12-02T04:31:44.454Z</lastmod>
@@ -12,13 +19,6 @@
     <loc>https://www.perpicpo.cn/2018/12/01/Hexo%E6%B7%BB%E5%8A%A0live2d%E7%9C%8B%E6%9D%BF%E5%8A%A8%E7%94%BB/</loc>
     
     <lastmod>2018-12-01T04:26:13.857Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.perpicpo.cn/about/index.html</loc>
-    
-    <lastmod>2018-12-01T04:11:06.606Z</lastmod>
     
   </url>
   
