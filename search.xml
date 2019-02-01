@@ -1,6 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[拉菲新年皮肤Live2d欣赏]]></title>
+    <url>%2F2019%2F02%2F01%2F%E6%8B%89%E8%8F%B2%E6%96%B0%E5%B9%B4%E7%9A%AE%E8%82%A4Live2d%E6%AC%A3%E8%B5%8F%2F</url>
+    <content type="text"><![CDATA[要1080个钻石呢（悲）但只要太太开心就好o(￣▽￣)o]]></content>
+      <tags>
+        <tag>鱼塘</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hexo播放Bilibili的视频]]></title>
+    <url>%2F2019%2F02%2F01%2FHexo%E6%92%AD%E6%94%BEBilibili%E7%9A%84%E8%A7%86%E9%A2%91%2F</url>
+    <content type="text"><![CDATA[Bilibili好在无广告，速度也挺快，无奈B站官方的视频嵌入是Flash的形式，但B站又是支持HTML5播放的，那么问题来了，外站如何嵌入HTML5的播放形式呢？首先，先在b站找到视频的cid和aid码（这样）复制下面的代码，换成你要的cid和aid码1&lt;iframe id=sbrxp src=&quot;//player.bilibili.com/player.html?aid=11200262&amp;cid=18527724&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot; style=&quot;width: 640px; height: 430px; max-width: 100%&quot;&gt; &lt;/iframe&gt; 美中不足的两点是，没有找到办法禁止视频的自动缓冲、禁止发送弹幕栏的显示。如果你找到了更好的办法，欢迎留言交流～ 附：本文参考了https://www.jianshu.com/p/457c11fea5e7]]></content>
+      <tags>
+        <tag>野生技术协会</tag>
+        <tag>Hexo</tag>
+        <tag>Bilibili</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[新年快乐]]></title>
     <url>%2F2019%2F01%2F01%2F%E6%96%B0%E5%B9%B4%E5%BF%AB%E4%B9%90%2F</url>
     <content type="text"><![CDATA[不知不觉中，2019来了呢！我的个人主页快存在4个月了吧？祝大家新的一年，万事如意！😀😘 &lt;/iframe]]></content>
