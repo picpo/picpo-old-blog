@@ -75,7 +75,7 @@
 
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="野生技术协会,树莓派," />
 
 
 
@@ -86,14 +86,20 @@
 
 
 
-<meta name="keywords" content="PiCpo的个人主页">
-<meta property="og:type" content="website">
-<meta property="og:title" content="PiCpo&#39;s  Home">
-<meta property="og:url" content="https://www.perpicpo.cn/archives/2018/09/index.html">
+<meta name="description" content="树莓派的GPIO引脚，可以作为时钟信号输出，于是可以把音频信号通过树莓派进行FM调制后从该引脚发出，这样树莓派就成了一台微型FM电台，可以自己指定频率，打开调频收音机，调到对应频道就能收到树莓派播放的微型 FM 广播。本片教程通过安装fm_transmitter来将树莓派变成微型FM电台。安装编译工具   sudo apt-get install make gcc g++   下载fm_trans">
+<meta name="keywords" content="野生技术协会,树莓派">
+<meta property="og:type" content="article">
+<meta property="og:title" content="用树莓派做FM发射器架设小型电台">
+<meta property="og:url" content="https://www.perpicpo.cn/2019/02/22/用树莓派做FM发射器架设小型电台/index.html">
 <meta property="og:site_name" content="PiCpo&#39;s  Home">
+<meta property="og:description" content="树莓派的GPIO引脚，可以作为时钟信号输出，于是可以把音频信号通过树莓派进行FM调制后从该引脚发出，这样树莓派就成了一台微型FM电台，可以自己指定频率，打开调频收音机，调到对应频道就能收到树莓派播放的微型 FM 广播。本片教程通过安装fm_transmitter来将树莓派变成微型FM电台。安装编译工具   sudo apt-get install make gcc g++   下载fm_trans">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://ww1.sinaimg.cn/large/007i4MEmgy1g0flw4bpt7j30ku0bewg3.jpg">
+<meta property="og:updated_time" content="2019-02-22T15:13:23.899Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="PiCpo&#39;s  Home">
+<meta name="twitter:title" content="用树莓派做FM发射器架设小型电台">
+<meta name="twitter:description" content="树莓派的GPIO引脚，可以作为时钟信号输出，于是可以把音频信号通过树莓派进行FM调制后从该引脚发出，这样树莓派就成了一台微型FM电台，可以自己指定频率，打开调频收音机，调到对应频道就能收到树莓派播放的微型 FM 广播。本片教程通过安装fm_transmitter来将树莓派变成微型FM电台。安装编译工具   sudo apt-get install make gcc g++   下载fm_trans">
+<meta name="twitter:image" content="https://ww1.sinaimg.cn/large/007i4MEmgy1g0flw4bpt7j30ku0bewg3.jpg">
 
 
 
@@ -123,13 +129,13 @@
 
 
 
-  <link rel="canonical" href="https://www.perpicpo.cn/archives/2018/09/"/>
+  <link rel="canonical" href="https://www.perpicpo.cn/2019/02/22/用树莓派做FM发射器架设小型电台/"/>
 
 
 
 
 
-  <title>归档 | PiCpo's  Home</title>
+  <title>用树莓派做FM发射器架设小型电台 | PiCpo's  Home</title>
   
 
 
@@ -148,7 +154,7 @@
     
   
 
-  <div class="container sidebar-position-left page-archive">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 <a href="https://www.perpicpo.cn" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -306,185 +312,189 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block archive">
-    <div id="posts" class="posts-collapse">
-      <span class="archive-move-on"></span>
+  <div id="posts" class="posts-expand">
+    
 
-      <span class="archive-page-counter">
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://www.perpicpo.cn/2019/02/22/用树莓派做FM发射器架设小型电台/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="PiCpo">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://wx3.sinaimg.cn/mw690/006QkgcIly8g071sg72y4j30em0elwh3.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="PiCpo's  Home">
+    </span>
+
+    
+      <header class="post-header">
+
         
         
+          <h2 class="post-title" itemprop="name headline">用树莓派做FM发射器架设小型电台</h2>
         
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-02-22T23:06:29+08:00">
+                2019-02-22
+              </time>
+            
+
+            
+
+            
+          </span>
+
           
-        
-        嗯..! 目前共计 25 篇日志。 继续努力。
-      </span>
 
-      
-
-        
-        
-        
-
-        
           
-          <div class="collection-title">
-            <h2 class="archive-year" id="archive-year-2018">2018</h2>
-          </div>
-        
-        
+            
+          
 
-        
+          
+          
 
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+          
 
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2018/09/22/给自己的博客开启gitalk/" itemprop="url">
-              
-                <span itemprop="name">给自己的博客开启gitalk</span>
-              
-            </a>
-        
-      </h3>
+          
 
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-09-22T12:36:15+08:00"
-              content="2018-09-22" >
-          09-22
-        </time>
-      </div>
+          
 
-    </header>
-  </article>
+        </div>
+      </header>
+    
 
-
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2018/09/20/关于搜索引擎，关于sitemap/" itemprop="url">
-              
-                <span itemprop="name">关于搜索引擎，关于sitemap</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-09-20T12:20:25+08:00"
-              content="2018-09-20" >
-          09-20
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
       
 
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2018/09/08/Dreamweaver的使用方法/" itemprop="url">
-              
-                <span itemprop="name">Dreamweaver的使用方法</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-09-08T14:54:11+08:00"
-              content="2018-09-08" >
-          09-08
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
+      
+        <p>树莓派的GPIO引脚，可以作为时钟信号输出，于是可以把音频信号通过树莓派进行FM调制后从该引脚发出，这样树莓派就成了一台微型FM电台，可以自己指定频率，打开调频收音机，调到对应频道就能收到树莓派播放的微型 FM 广播。<br><img src="https://ww1.sinaimg.cn/large/007i4MEmgy1g0flw4bpt7j30ku0bewg3.jpg" alt=""><br>本片教程通过安装fm_transmitter来将树莓派变成微型FM电台。<br>安装编译工具  </p>
+<pre><code>sudo apt-get install make gcc g++  
+</code></pre><p>下载fm_transmitter  </p>
+<pre><code>sudo git clone https://github.com/markondej/fm_transmitter  
+</code></pre><p>然后进入 fm_transmitter 目录，执行make： </p>
+<pre><code>cd fm_transmitter
+sudo make  
+</code></pre><p>树莓派FM发射器开启命令格式为：  </p>
+<pre><code>sudo ./fm_transmitter [-f frequency] [-r] filename
+</code></pre><p>其中，frequency为指定的频道，filename为要播放wav格式的音频文件。</p>
+<p>例如，使用以下命令在100.6频道播放在本地的star_wars.wav文件：</p>
+<pre><code>sudo ./fm_transmitter -f 100.6 -r ./star_wars.wav
+</code></pre><p>没有在树莓派GPIO 4（PIN7）上接一根长长的杜邦线增强信号，直接播放，使用手机收听，在1米内音质很清晰，3米的范围仍然可以听的见，超过3米就不行了。</p>
 
       
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h3 class="post-title">
-        
-            <a class="post-title-link" href="/2018/09/02/如何利用OneDrive同步Hexo文件夹/" itemprop="url">
-              
-                <span itemprop="name">如何利用OneDrive同步Hexo文件夹</span>
-              
-            </a>
-        
-      </h3>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2018-09-02T09:57:44+08:00"
-              content="2018-09-02" >
-          09-02
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
-      
-
     </div>
+    
+    
+    
+
+<div>
+  
+    ﻿<div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
+</div>
+  
+</div>
+
+    
+
+    
+
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者：</strong>
+    PiCpo
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://www.perpicpo.cn/2019/02/22/用树莓派做FM发射器架设小型电台/" title="用树莓派做FM发射器架设小型电台">https://www.perpicpo.cn/2019/02/22/用树莓派做FM发射器架设小型电台/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>
+    本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+
+      </div>
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/野生技术协会/" rel="tag"># 野生技术协会</a>
+          
+            <a href="/tags/树莓派/" rel="tag"># 树莓派</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/02/04/新春快乐/" rel="next" title="新春快乐">
+                <i class="fa fa-chevron-left"></i> 新春快乐
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -492,6 +502,14 @@
 
 
           
+
+  
+   <div id="gitalk-container">
+   </div>
+
+  
+
+
 
         </div>
         
@@ -761,6 +779,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 
@@ -801,6 +823,24 @@
 
 
 
+
+  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  
+  <script src="/js/src/md5.min.js"></script>
+
+   <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: '7feb5be9f995b78f93eb',
+          clientSecret: '75e35cbf42bf9b69ce3eed52757b79ade3d39897',
+          repo: 'comment',
+          owner: 'picpo',
+          admin: ['picpo'],
+          id: md5(location.pathname),
+          distractionFreeMode: 'true'
+        })
+        gitalk.render('gitalk-container')           
+       </script>
 
 
   

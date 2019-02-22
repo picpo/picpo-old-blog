@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[用树莓派做FM发射器架设小型电台]]></title>
+    <url>%2F2019%2F02%2F22%2F%E7%94%A8%E6%A0%91%E8%8E%93%E6%B4%BE%E5%81%9AFM%E5%8F%91%E5%B0%84%E5%99%A8%E6%9E%B6%E8%AE%BE%E5%B0%8F%E5%9E%8B%E7%94%B5%E5%8F%B0%2F</url>
+    <content type="text"><![CDATA[树莓派的GPIO引脚，可以作为时钟信号输出，于是可以把音频信号通过树莓派进行FM调制后从该引脚发出，这样树莓派就成了一台微型FM电台，可以自己指定频率，打开调频收音机，调到对应频道就能收到树莓派播放的微型 FM 广播。本片教程通过安装fm_transmitter来将树莓派变成微型FM电台。安装编译工具 sudo apt-get install make gcc g++ 下载fm_transmitter sudo git clone https://github.com/markondej/fm_transmitter 然后进入 fm_transmitter 目录，执行make： cd fm_transmitter sudo make 树莓派FM发射器开启命令格式为： sudo ./fm_transmitter [-f frequency] [-r] filename 其中，frequency为指定的频道，filename为要播放wav格式的音频文件。 例如，使用以下命令在100.6频道播放在本地的star_wars.wav文件： sudo ./fm_transmitter -f 100.6 -r ./star_wars.wav 没有在树莓派GPIO 4（PIN7）上接一根长长的杜邦线增强信号，直接播放，使用手机收听，在1米内音质很清晰，3米的范围仍然可以听的见，超过3米就不行了。]]></content>
+      <tags>
+        <tag>野生技术协会</tag>
+        <tag>树莓派</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[新春快乐]]></title>
     <url>%2F2019%2F02%2F04%2F%E6%96%B0%E6%98%A5%E5%BF%AB%E4%B9%90%2F</url>
     <content type="text"><![CDATA[值此新春佳节之际选择排序，插入排序，快速排序，归并排序，希尔排序帮您排忧解难；有向图，无向图，完全图，稠密图，拓扑图祝您宏图大展；线性动归，区间动归，坐标动归，背包动归，树型动归为您规划精彩；哈希表，邻接表，双向链表，循环链表帮您表达情意；费马，欧几里得，欧拉，哈密尔顿，图灵大师助您一臂之力！祝各位同学在新的一年里心想事成、万事皆顺！ &lt;/iframe]]></content>

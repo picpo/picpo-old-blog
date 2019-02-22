@@ -321,6 +321,142 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://www.perpicpo.cn/2019/02/22/用树莓派做FM发射器架设小型电台/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="PiCpo">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://wx3.sinaimg.cn/mw690/006QkgcIly8g071sg72y4j30em0elwh3.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="PiCpo's  Home">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/02/22/用树莓派做FM发射器架设小型电台/" itemprop="url">用树莓派做FM发射器架设小型电台</a></h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-02-22T23:06:29+08:00">
+                2019-02-22
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>树莓派的GPIO引脚，可以作为时钟信号输出，于是可以把音频信号通过树莓派进行FM调制后从该引脚发出，这样树莓派就成了一台微型FM电台，可以自己指定频率，打开调频收音机，调到对应频道就能收到树莓派播放的微型 FM 广播。<br><img src="https://ww1.sinaimg.cn/large/007i4MEmgy1g0flw4bpt7j30ku0bewg3.jpg" alt=""><br>本片教程通过安装fm_transmitter来将树莓派变成微型FM电台。<br>安装编译工具  </p>
+<pre><code>sudo apt-get install make gcc g++  
+</code></pre><p>下载fm_transmitter  </p>
+<pre><code>sudo git clone https://github.com/markondej/fm_transmitter  
+</code></pre><p>然后进入 fm_transmitter 目录，执行make： </p>
+<pre><code>cd fm_transmitter
+sudo make  
+</code></pre><p>树莓派FM发射器开启命令格式为：  </p>
+<pre><code>sudo ./fm_transmitter [-f frequency] [-r] filename
+</code></pre><p>其中，frequency为指定的频道，filename为要播放wav格式的音频文件。</p>
+<p>例如，使用以下命令在100.6频道播放在本地的star_wars.wav文件：</p>
+<pre><code>sudo ./fm_transmitter -f 100.6 -r ./star_wars.wav
+</code></pre><p>没有在树莓派GPIO 4（PIN7）上接一根长长的杜邦线增强信号，直接播放，使用手机收听，在1米内音质很清晰，3米的范围仍然可以听的见，超过3米就不行了。</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+<div>
+  
+</div>
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://www.perpicpo.cn/2019/02/04/新春快乐/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -814,130 +950,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.perpicpo.cn/2018/12/30/章口就莱/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="PiCpo">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="http://wx3.sinaimg.cn/mw690/006QkgcIly8g071sg72y4j30em0elwh3.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="PiCpo's  Home">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h2 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/12/30/章口就莱/" itemprop="url">章口就莱</a></h2>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-12-30T17:46:42+08:00">
-                2018-12-30
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>说起西游记，就不得不说起玄奘大师背后繁荣强盛的大唐。说起大唐的盛世，就必须讲讲这其中起到重要作用的科举制度。说到科举我就想到了期末考试。几周后，期末考试正式开始，我将继续表演挂科，文理两爆炸，继续以学渣的形象让各位笑话，请大家多多关注。<br>/折袖<br><img src="https://ww1.sinaimg.cn/large/007iUjdigy1fyq0egokvzj30go09emxh.jpg" alt=""></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-<div>
-  
-</div>
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
@@ -992,7 +1004,7 @@
               
                 <a href="/archives">
               
-                  <span class="site-state-item-count">24</span>
+                  <span class="site-state-item-count">25</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -1005,7 +1017,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">15</span>
+                  <span class="site-state-item-count">16</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
