@@ -668,7 +668,7 @@ sudo make
 </code></pre><p>树莓派FM发射器开启命令格式为：  </p>
 <pre><code>sudo ./fm_transmitter [-f frequency] [-r] filename
 </code></pre><p>其中，frequency为指定的频道，filename为要播放wav格式的音频文件。</p>
-<p>例如，使用以下命令在100.6频道播放在本地的star_wars.wav文件：</p>
+<p>例如，使用以下命令在100.6频道播放在本地的star_wars.wav(文件音频必须是wav文件16bit 44.1kHz单声道)：</p>
 <pre><code>sudo ./fm_transmitter -f 100.6 -r ./star_wars.wav
 </code></pre><p>没有在树莓派GPIO 4（PIN7）上接一根长长的杜邦线增强信号，直接播放，使用手机收听，在1米内音质很清晰，3米的范围仍然可以听的见，超过3米就不行了。</p>
 

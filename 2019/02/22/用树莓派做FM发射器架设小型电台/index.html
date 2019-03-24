@@ -95,7 +95,7 @@
 <meta property="og:description" content="树莓派的GPIO引脚，可以作为时钟信号输出，于是可以把音频信号通过树莓派进行FM调制后从该引脚发出，这样树莓派就成了一台微型FM电台，可以自己指定频率，打开调频收音机，调到对应频道就能收到树莓派播放的微型 FM 广播。本片教程通过安装fm_transmitter来将树莓派变成微型FM电台。安装编译工具   sudo apt-get install make gcc g++   下载fm_trans">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://ww1.sinaimg.cn/large/007i4MEmgy1g0flw4bpt7j30ku0bewg3.jpg">
-<meta property="og:updated_time" content="2019-02-22T15:13:23.899Z">
+<meta property="og:updated_time" content="2019-03-17T04:08:08.477Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="用树莓派做FM发射器架设小型电台">
 <meta name="twitter:description" content="树莓派的GPIO引脚，可以作为时钟信号输出，于是可以把音频信号通过树莓派进行FM调制后从该引脚发出，这样树莓派就成了一台微型FM电台，可以自己指定频率，打开调频收音机，调到对应频道就能收到树莓派播放的微型 FM 广播。本片教程通过安装fm_transmitter来将树莓派变成微型FM电台。安装编译工具   sudo apt-get install make gcc g++   下载fm_trans">
@@ -403,7 +403,7 @@ sudo make
 </code></pre><p>树莓派FM发射器开启命令格式为：  </p>
 <pre><code>sudo ./fm_transmitter [-f frequency] [-r] filename
 </code></pre><p>其中，frequency为指定的频道，filename为要播放wav格式的音频文件。</p>
-<p>例如，使用以下命令在100.6频道播放在本地的star_wars.wav文件：</p>
+<p>例如，使用以下命令在100.6频道播放在本地的star_wars.wav(文件音频必须是wav文件16bit 44.1kHz单声道)：</p>
 <pre><code>sudo ./fm_transmitter -f 100.6 -r ./star_wars.wav
 </code></pre><p>没有在树莓派GPIO 4（PIN7）上接一根长长的杜邦线增强信号，直接播放，使用手机收听，在1米内音质很清晰，3米的范围仍然可以听的见，超过3米就不行了。</p>
 
