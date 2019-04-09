@@ -1,396 +1,184 @@
 <!DOCTYPE html>
-
-
-
-  
-
-
-<html class="theme-next gemini use-motion" lang="zh-Hans">
+<html>
 <head>
-  <meta charset="UTF-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-<meta name="theme-color" content="#222">
-
-
-
-  
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="PiCpo">
     
     
-  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
-  <link href="/lib/pace/pace-theme-flash.min.css?v=1.0.2" rel="stylesheet">
-
-
-
-
-
-
-
-<meta http-equiv="Cache-Control" content="no-transform" />
-<meta http-equiv="Cache-Control" content="no-siteapp" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
-
-
-
-
-
-
-
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
-
-<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
-
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
-
-
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
-
-
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
-
-
-  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
-
-
-
-
-
-  <meta name="keywords" content="野生技术协会," />
-
-
-
-
-
-
-
-
-
-
-<meta name="description" content="Office 2016是微软的一个庞大的办公软件集合，其中包括了Word、Excel、PowerPoint、OneNote、Outlook、Skype、Project、Visio以及Publisher等组件和服务。Office 2016 For Mac于2015年3月18日发布，Office 2016 For Office 365订阅升级版于2015年8月30日发布，Office 2016 For">
-<meta name="keywords" content="野生技术协会">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Office2016的使用方法">
-<meta property="og:url" content="https://www.perpicpo.cn/2018/11/15/Office2016的使用方法/index.html">
-<meta property="og:site_name" content="PiCpo&#39;s  Home">
-<meta property="og:description" content="Office 2016是微软的一个庞大的办公软件集合，其中包括了Word、Excel、PowerPoint、OneNote、Outlook、Skype、Project、Visio以及Publisher等组件和服务。Office 2016 For Mac于2015年3月18日发布，Office 2016 For Office 365订阅升级版于2015年8月30日发布，Office 2016 For">
-<meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-11-15T14:51:37.088Z">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Office2016的使用方法">
-<meta name="twitter:description" content="Office 2016是微软的一个庞大的办公软件集合，其中包括了Word、Excel、PowerPoint、OneNote、Outlook、Skype、Project、Visio以及Publisher等组件和服务。Office 2016 For Mac于2015年3月18日发布，Office 2016 For Office 365订阅升级版于2015年8月30日发布，Office 2016 For">
-
-
-
-<script type="text/javascript" id="hexo.configurations">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    root: '/',
-    scheme: 'Gemini',
-    version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
-    fancybox: true,
-    tabs: true,
-    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
-    duoshuo: {
-      userId: '0',
-      author: '博主'
-    },
-    algolia: {
-      applicationID: '',
-      apiKey: '',
-      indexName: '',
-      hits: {"per_page":10},
-      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
-    }
-  };
-</script>
-
-
-
-  <link rel="canonical" href="https://www.perpicpo.cn/2018/11/15/Office2016的使用方法/"/>
-
-
-
-
-
-  <title>Office2016的使用方法 | PiCpo's  Home</title>
-  
-
-
-
-
-
-
-
-
+    
+    
+    
+    
+    <title>Office2016的使用方法 | PiCpoの動物園(=・ω・=)</title>
+    <!-- inject:style -->
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+    <!-- endinject -->
+    <style>
+        .cube-loading {
+            top: 0;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background: url('/images/lg/loading.gif') no-repeat center center;
+            background-color: rgba(0,0,0,.7);
+        }
+
+        .cube-loading.out {
+            display: none;
+        }
+
+        .cube-loading:before {
+            display: block;
+            content: '加载中';
+            position: relative;
+            width: 100%;
+            top: 50%;
+            right: -50%;
+            color: #fff;
+        }
+
+        @media(max-width: 768px) {
+            .cube-loading:before {
+                font-size: 1.2em;
+                transform: translate(-24px,20px);
+                -webkit-transform: translate(-24px,20px);
+                -o-transform: translate(-24px,20px);
+                -ms-transform: translate(-24px,20px);
+            }
+        }
+
+        @media(min-width: 768px) {
+            .cube-loading:before {
+
+            }
+        }
+    </style>
+    
 </head>
-
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
-
-  
-  
-    
-  
-
-  <div class="container sidebar-position-left page-post-detail">
-    <div class="headband"></div>
-<a href="https://www.perpicpo.cn" class="github-corner" aria-label="View source on Github"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
-    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-wrapper">
-  <div class="site-meta ">
-    
-
-    <div class="custom-logo-site-title">
-      <a href="/"  class="brand" rel="start">
-        <span class="logo-line-before"><i></i></span>
-        <span class="site-title">PiCpo's  Home</span>
-        <span class="logo-line-after"><i></i></span>
-      </a>
-    </div>
-      
-        <h1 class="site-subtitle" itemprop="description">PiCpo的个人主页</h1>
-      
-  </div>
-
-  <div class="site-nav-toggle">
-    <button>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-      <span class="btn-bar"></span>
-    </button>
-  </div>
-</div>
-
-<nav class="site-nav">
-  
-
-  
-    <ul id="menu" class="menu">
-      
+<body>
+<div class="cube-body">
+    <nav id="cube-top-memu" class="cube-menu">
+    <ul class="cube-menu-collapse">
         
-        <li class="menu-item menu-item-首页">
-          <a href="/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
-            
-            首页
-          </a>
+        <li>
+            <i class="cube-icon cube-icon-home" aria-hidden="true"></i>
+            <a href="/">首页</a>
         </li>
-      
         
-        <li class="menu-item menu-item-动态">
-          <a href="/personal_space" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br />
-            
-            动态
-          </a>
+        <li>
+            <i class="cube-icon cube-icon-archive" aria-hidden="true"></i>
+            <a href="/archives">归档</a>
         </li>
-      
         
-        <li class="menu-item menu-item-收藏夹">
-          <a href="/favor/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
-            
-            收藏夹
-          </a>
+        <li>
+            <i class="cube-icon cube-icon-categories" aria-hidden="true"></i>
+            <a href="/favor">收藏</a>
         </li>
-      
         
-        <li class="menu-item menu-item-标签">
-          <a href="/tags/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
-            
-            标签
-          </a>
+        <li>
+            <i class="cube-icon cube-icon-tags" aria-hidden="true"></i>
+            <a href="/album">相册</a>
         </li>
-      
         
-        <li class="menu-item menu-item-归档">
-          <a href="/archives/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
-            
-            归档
-          </a>
+        <li>
+            <i class="cube-icon cube-icon-about" aria-hidden="true"></i>
+            <a href="/about">关于我</a>
         </li>
-      
         
-        <li class="menu-item menu-item-相册">
-          <a href="/album/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-image"></i> <br />
-            
-            相册
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-关于咱">
-          <a href="/about/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
-            
-            关于咱
-          </a>
-        </li>
-      
-
-      
-        <li class="menu-item menu-item-search">
-          
-            <a href="javascript:;" class="popup-trigger">
-          
-            
-              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
-            
-            搜索
-          </a>
-        </li>
-      
     </ul>
-  
-
-  
-    <div class="site-search">
-      
-  <div class="popup search-popup local-search-popup">
-  <div class="local-search-header clearfix">
-    <span class="search-icon">
-      <i class="fa fa-search"></i>
-    </span>
-    <span class="popup-btn-close">
-      <i class="fa fa-times-circle"></i>
-    </span>
-    <div class="local-search-input-wrapper">
-      <input autocomplete="off"
-             placeholder="搜索..." spellcheck="false"
-             type="text" id="local-search-input">
-    </div>
-  </div>
-  <div id="local-search-result"></div>
-</div>
-
-
-
-    </div>
-  
 </nav>
-
-
-
- </div>
-    </header>
-
-    <main id="main" class="main">
-      <div class="main-inner">
-        <div class="content-wrap">
-          <div id="content" class="content">
-            
-
-  <div id="posts" class="posts-expand">
+<nav class="cube-side-menu" id="cube-side-menu">
+    <ul class="cube-menu-list">
+        
+        <li>
+            <a class="lrc-control">开启歌词</a>
+        </li>
+        
+        <li>
+            <a class="scroll-to-top">回到顶部</a>
+        </li>
+    </ul>
+</nav>
+    <header class="cube-header" id="cube-header">
+    <img src=" https://ww1.sinaimg.cn/large/007i4MEmgy1g1wrgdwhu0j31cb0r8nhb.jpg " alt="头部背景图片">
     
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://www.perpicpo.cn/2018/11/15/Office2016的使用方法/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="PiCpo">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="http://wx3.sinaimg.cn/mw690/006QkgcIly8g071sg72y4j30em0elwh3.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="PiCpo's  Home">
-    </span>
-
+    <div class="cube-type">
+        <span class="cube-typed-title">PiCpoの動物園(=・ω・=)</span>
+        <span class="cube-typed-cursor">|</span>
+    </div>
     
-      <header class="post-header">
+</header>
 
+    <style>
+        nav.cube-menu:before {
+            content: '';
+            visibility: hidden;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 44px;
         
+            filter: blur(5px);
+            -webkit-filter: blur(5px);
         
-          <h2 class="post-title" itemprop="name headline">Office2016的使用方法</h2>
+            z-index: -1;
+            background-image: url('https://ww1.sinaimg.cn/large/007i4MEmgy1g1wrgdwhu0j31cb0r8nhb.jpg');
+            background-repeat: no-repeat;
+            background-position: center -356px;
+            background-size: cover;
+            background-color: transparent;
+        }
+
+        header.cube-background.cube-header-background {
+            visibility: hidden;
+            background-image: url('https://ww1.sinaimg.cn/large/007i4MEmgy1g1wrgdwhu0j31cb0r8nhb.jpg');
+            background-position: center -400px;
+        }
+    </style>
+    <header class="cube-background cube-header-background">
         
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-11-15T22:34:53+08:00">
-                2018-11-15
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+        <div class="cube-type">
+            <span class="cube-typed-title">PiCpoの動物園(=・ω・=)</span>
+            <span class="cube-typed-cursor">|</span>
         </div>
-      </header>
-    
+        
+    </header>
+    <div class="load-header-background"></div>
+    <script>
+        (function (window) {
 
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
+            window.headerModule = {}
+            window.headerModule.image = {
+                width: '1739',
+                height: '980'
+            }
 
-      
-      
-
-      
+        })(window)
+    </script>
+    
+    <div class="cube-content">
+        <div class="cube-left">
+            <div class="cube-article">
+    <h1 class="title">Office2016的使用方法</h1>
+    
+    <div class="cube-article-header">
+        <div class="cube-article-date">
+            <i class="cube-icon cube-icon-date" aria-hidden="true"></i>
+            <!-- moment.js对象 -->
+            2018-11-15
+        </div>
+        <div class="cube-article-tags">
+    <i class="cube-icon cube-icon-tag" aria-hidden="true"></i>
+    
+    <a href="/tags/野生技术协会/">#野生技术协会</a>
+    
+</div>
+    </div>
+    
+    <div class="cube-article-content cube-markdown">
+        
         <p>Office 2016是微软的一个庞大的办公软件集合，其中包括了Word、Excel、PowerPoint、OneNote、Outlook、Skype、Project、Visio以及Publisher等组件和服务。Office 2016 For Mac于2015年3月18日发布，Office 2016 For Office 365订阅升级版于2015年8月30日发布，Office 2016 For Windows 零售版、For iOS版均于2015年9月22日正式发布。  </p>
 <p>下载地址：  </p>
 <p>office 2016下载<br>ed2k://|file|SW_DVD5_Office_Professional_Plus_2016_64Bit_ChnSimp_MLF_X20-42426.ISO|1123452928|31087A00FF67D4F5B4CBF4AA07C3433B|/</p>
@@ -398,796 +186,316 @@
 <p>visio 2016下载<br>ed2k://|file|SW_DVD5_Visio_Pro_2016_64Bit_ChnSimp_MLF_X20-42759.ISO|714913792|FC930AB97B366B3595FC2F28ABAC2A6F|/</p>
 <a id="more"></a>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br></pre></td><td class="code"><pre><span class="line">Office 2016 Pro Plus Retail 版激活密钥：</span><br><span class="line">[Key]：3XJTG-YNBMY-TBH9M-CWB2Y-YWRHH</span><br><span class="line">[Key]：6TCQ3-NBBJ2-RTJCM-HFRKV-G6PQV</span><br><span class="line">[Key]：CGGR9-NQYC7-KRRGM-K4Y8J-XW3K7</span><br><span class="line">[Key]：3GXXR-NT7BJ-9DRBB-M9FYC-CKCQV</span><br><span class="line"></span><br><span class="line">Office 2016 Visio Pro Retail 版激活密钥：</span><br><span class="line">[Key]：VPKCP-96NGG-6888Q-3FTVY-43KY7</span><br><span class="line"></span><br><span class="line">Office 2016 Project Pro Retail 版激活密钥：</span><br><span class="line">[Key]：93N8W-W8HD8-R7M7R-K8WFY-3GPQD</span><br><span class="line">[Key]：CGW9N-DR7K6-636BK-C8VJ7-BDW3D</span><br><span class="line"></span><br><span class="line">Office 2016 Pro Retail 版激活密钥：</span><br><span class="line">[Key]：D77NY-XJ4WK-3MGPX-FGBYF-QGPX7</span><br><span class="line">[Key]：GGN2G-KFCYX-G38YD-FC87Q-H22X7</span><br><span class="line">[Key]：NP4QM-BMRG3-G8D6M-8BC4W-78RQV</span><br><span class="line">[Key]：NTGF6-Q4QRC-M7Q9R-KBYJV-XD8DV</span><br><span class="line">[Key]：V4PG8-NK3WC-RG6X3-RWB37-X77HH</span><br><span class="line">[Key]：XKK79-6GNKP-FVDCH-K24VH-3J3VH</span><br><span class="line"></span><br><span class="line">Office 2016 Project Std Retail 版激活密钥：</span><br><span class="line">[Key]：M9R3N-WJ6VB-FP3B8-J94M8-PKCQM</span><br><span class="line"></span><br><span class="line">Office 2016 Home Business Retail 版激活密钥：</span><br><span class="line">[Key]：YDGFB-CFN3G-JQRFM-3CV4K-FRG7X</span><br><span class="line">[Key]：YQ82T-2N8TH-FM4GF-G2T7Y-B4G7X</span><br><span class="line">[Key]：QPWT6-RTN83-QYJ9C-MBB7J-J8GBK</span><br><span class="line">[Key]：RJHMT-NYJ48-BXRXH-C48DQ-RJRD9</span><br><span class="line">[Key]：PDRT2-NTX32-X2BGX-VXV8J-78RD9</span><br><span class="line">[Key]：NHG3V-QV7DX-KRYHX-TJ99H-YY6BK</span><br><span class="line">6WTHT-N7M4Q-KY7DW-WVDF3-G83HX</span><br><span class="line">8YGHQ-N7DM6-HX7X2-V8HKC-7CFD9</span><br><span class="line">9T3NF-62BG3-2WQ37-6794Y-HT9VX</span><br><span class="line">CDWNC-92747-2M6B8-2WDVY-43KVX</span><br><span class="line">FFVGV-HN8BY-D3BK9-V6T7M-JK8YK</span><br><span class="line">GHCTN-PWTTW-WW36W-2FPK3-63BQ9</span><br><span class="line">HNXFM-DXY4M-G2KDP-97XXK-BKMQ9</span><br><span class="line">YNVW8-WK4TP-8GHFF-R48JH-RGDHX</span><br><span class="line">YRCGD-NBT24-394X2-TQ44C-DDBQ9</span><br><span class="line">NHPWV-J9P2X-BPT47-VMWHJ-4VV39</span><br><span class="line">N9QVX-724WK-VCVTK-QKWMF-VMH39</span><br><span class="line">NDXJM-KCQG4-Q3VX3-JVX73-FM6BK</span><br><span class="line">M4FNV-VTJGG-4BW33-VYV2V-JQKVX</span><br><span class="line">MPV3N-3DJRJ-74CPK-RXGDM-3GPMK</span><br><span class="line">FNGX7-VC89B-248DR-4QC9X-9HJYK</span><br><span class="line">CXTHH-VNJGK-MDCVT-KKWYQ-4GDHX</span><br><span class="line">D7P4N-9JQDR-8PXB9-J8FV6-D3WYK</span><br><span class="line">D83YW-FRN3V-6KJRQ-QKGHM-BBH39</span><br><span class="line">DVBKN-TWYYT-9GV9F-DF96T-722MK</span><br><span class="line">CQYNJ-C7D3P-92GKB-3RDWP-P9XVX</span><br><span class="line">BTPWB-NFVJF-MPCDC-VJKT4-W8GBK</span><br><span class="line">9BJ3K-N7M3T-4TJJV-2V473-8K8YK</span><br><span class="line">7N9M2-B9XY9-97HCM-2WHXX-9HJYK</span><br><span class="line">7TN8X-RFMPQ-XQRDV-4HQHY-YWRD9</span><br><span class="line"></span><br><span class="line">Office 2016 Home Student Retail 版激活密钥：</span><br><span class="line">[Key]：RXVQN-93PF2-3H94R-BFKFH-GCQH9</span><br><span class="line">[Key]：NXCGP-Q2X6H-QRBW7-QM9FP-TMT79</span><br><span class="line">[Key]：NY8Y8-D6CBT-QJPWG-XPBGC-KW3H9</span><br><span class="line">[Key]：P2JBN-GJQYC-CG8RR-M7BQV-M4G79</span><br><span class="line">[Key]：N4VKB-GVBGG-9YHDC-CT393-RJRFK</span><br><span class="line">[Key]：HG83C-N3F2V-V32CQ-WPVXX-CDKV9</span><br><span class="line">27VKN-2GKRR-CRR7J-6V8P3-FM6BX</span><br><span class="line">2XJC2-N6T8B-HK8R6-QX69R-W8GBX</span><br><span class="line">3RM2F-N332C-RKXQR-G3JGR-K4TBX</span><br><span class="line">B3JN7-D9C28-WVXVC-JFXBH-8HV4K</span><br><span class="line">CRN9H-BB6MM-TGFT2-JCBVG-QYH4K</span><br><span class="line">FDJ72-R3NFV-TCTJ4-43WKD-4GDH9</span><br><span class="line">GCXN3-X2PD4-PTRR6-KCYYW-HMH4K</span><br><span class="line">GPVJX-XNMPB-2KD2J-JJKDQ-G83H9</span><br><span class="line">HBFJH-6VNJR-46HTQ-6GY4K-YDWYX</span><br><span class="line">W63MC-NPB3D-88GMF-C2H6B-FGDH9</span><br><span class="line"></span><br><span class="line">Office 2016 Word Retail 版激活密钥：</span><br><span class="line">[Key]：342HH-FNBQT-D42D7-Y9X4Q-49CTD</span><br><span class="line">[Key]：BYJVM-QHNFB-BBFFX-2VRHG-6F4J3</span><br><span class="line">[Key]：D6KGQ-HNXTC-8WHPF-7MHTQ-PYVCQ</span><br><span class="line">[Key]：FNMBC-KWVK8-K3BJR-4XHBW-HMH83</span><br><span class="line">[Key]：PJNY4-Q23VG-2WQGX-VHYKD-PYVCQ</span><br><span class="line">[Key]：T8HNG-D69V2-94CQ2-3XKKY-HT92Q</span><br><span class="line">[Key]：W4VPG-QQN66-J4BPB-3MMHC-4RHCQ</span><br><span class="line">[Key]：XXNVK-WMQ4T-6MTGF-WQFD3-XHJ6D</span><br><span class="line">[Key]：YY2CW-79NJT-3KM88-98BCG-KTPTD</span><br><span class="line"></span><br><span class="line">Office 2016 Excel Retail 版激活密钥：</span><br><span class="line">[Key]：T2NR8-D9XBG-YWMH4-7JK7B-XBT7P</span><br><span class="line"></span><br><span class="line">Office 2016 Access Retail 版激活密钥：</span><br><span class="line">[Key]：CNXXK-G77YK-DBGQ2-6T9PT-C9XVF</span><br><span class="line">[Key]：VN9KM-RKM4H-K9PBY-J9R6R-GXXVF</span><br><span class="line"></span><br><span class="line">Office 2016 Outlook Retail 版激活密钥：</span><br><span class="line">[Key]：8NFD7-9MT3V-8RVC2-FW23H-G6PPX</span><br><span class="line">[Key]：3MBDN-FXD8Q-GVGGK-TX8H4-6Q76K</span><br><span class="line">[Key]：6FXCY-NGBB7-49HB8-CMHHM-BBH6K</span><br><span class="line">[Key]：74WC9-BNH6Q-HTPM7-CFTMP-HH689</span><br><span class="line">[Key]：846DJ-N9GBP-2P46T-VMR4P-TMT89</span><br><span class="line">[Key]：FCJX4-BVNJ9-444CM-8GMK7-R9CPX</span><br><span class="line">[Key]：MCGNH-RHGV9-CKPMY-BTXDJ-TQ76K</span><br><span class="line">[Key]：TJD9N-9J78H-Y6399-YJ8G2-3YH6K</span><br><span class="line"></span><br><span class="line">Office 2016 Power Point Retail 版激活密钥：</span><br><span class="line">[Key]：W3MNG-CCWVT-2F6JH-WHHR7-R9CP4</span><br><span class="line"></span><br><span class="line">Office 2016 Publisher Retail 版激活密钥：</span><br><span class="line">[Key]：DYQ2H-NP789-TV9KF-XXG9C-RVV7R</span><br><span class="line">[Key]：JXNBM-RP46P-F3KTQ-44W8T-CGYVR</span><br></pre></td></tr></table></figure>
-      
     </div>
-    
-    
-    
-
-<div>
-  
-    ﻿<div>
-    
-        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
-    
-</div>
-  
 </div>
 
-    
-
-    
-
-    
-      <div>
-        <ul class="post-copyright">
-  <li class="post-copyright-author">
-    <strong>本文作者：</strong>
-    PiCpo
-  </li>
-  <li class="post-copyright-link">
-    <strong>本文链接：</strong>
-    <a href="https://www.perpicpo.cn/2018/11/15/Office2016的使用方法/" title="Office2016的使用方法">https://www.perpicpo.cn/2018/11/15/Office2016的使用方法/</a>
-  </li>
-  <li class="post-copyright-license">
-    <strong>版权声明： </strong>
-    本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
-  </li>
-</ul>
-
-      </div>
-    
-
-    <footer class="post-footer">
-      
-        <div class="post-tags">
-          
-            <a href="/tags/野生技术协会/" rel="tag"># 野生技术协会</a>
-          
-        </div>
-      
-
-      
-      
-      
-
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-              <a href="/2018/11/07/Github访问比较慢的解决方法/" rel="next" title="Github访问比较慢的解决方法">
-                <i class="fa fa-chevron-left"></i> Github访问比较慢的解决方法
-              </a>
-            
-          </div>
-
-          <span class="post-nav-divider"></span>
-
-          <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/11/25/Github-START/" rel="prev" title="Github,START!!">
-                Github,START!! <i class="fa fa-chevron-right"></i>
-              </a>
-            
-          </div>
-        </div>
-      
-
-      
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-
-    <div class="post-spread">
-      
-    </div>
-  </div>
-
-
-          </div>
-          
-
-
-          
-
-  
-   <div id="gitalk-container">
-   </div>
-
-  
-
-
-
-        </div>
+<div class="cube-article-nav">
+    <ul>
         
-          
-  
-  <div class="sidebar-toggle">
-    <div class="sidebar-toggle-line-wrap">
-      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
-      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
-    </div>
-  </div>
-
-  <aside id="sidebar" class="sidebar">
-    
-    <div class="sidebar-inner">
-
-      
-
-      
-
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
-        <div class="site-overview">
-          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-            
-              <img class="site-author-image" itemprop="image"
-                src="http://wx3.sinaimg.cn/mw690/006QkgcIly8g071sg72y4j30em0elwh3.jpg"
-                alt="PiCpo" />
-            
-              <p class="site-author-name" itemprop="name">PiCpo</p>
-              <p class="site-description motion-element" itemprop="description"></p>
-          </div>
-
-          <nav class="site-state motion-element">
-
-            
-              <div class="site-state-item site-state-posts">
-              
-                <a href="/archives">
-              
-                  <span class="site-state-item-count">27</span>
-                  <span class="site-state-item-name">日志</span>
-                </a>
-              </div>
-            
-
-            
-
-            
-              
-              
-              <div class="site-state-item site-state-tags">
-                <a href="/tags/index.html">
-                  <span class="site-state-item-count">16</span>
-                  <span class="site-state-item-name">标签</span>
-                </a>
-              </div>
-            
-
-          </nav>
-
-          
-
-          
-            <div class="links-of-author motion-element">
-                
-                  <span class="links-of-author-item">
-                    <a href="https://github.com/picpo" target="_blank" title="GitHub">
-                      
-                        <i class="fa fa-fw fa-github"></i>GitHub</a>
-                  </span>
-                
-                  <span class="links-of-author-item">
-                    <a href="https://www.zhihu.com/people/picpo/activities" target="_blank" title="知乎">
-                      
-                        <i class="fa fa-fw fa-globe"></i>知乎</a>
-                  </span>
-                
-                  <span class="links-of-author-item">
-                    <a href="https://music.163.com/#/user/home?id=432954369" target="_blank" title="Cloudmusic">
-                      
-                        <i class="fa fa-fw fa-music"></i>Cloudmusic</a>
-                  </span>
-                
-                  <span class="links-of-author-item">
-                    <a href="https://twitter.com/nuddle_hui" target="_blank" title="Twitter">
-                      
-                        <i class="fa fa-fw fa-twitter"></i>Twitter</a>
-                  </span>
-                
-                  <span class="links-of-author-item">
-                    <a href="mailto:mail@perpicpo.cn" target="_blank" title="Domain mail">
-                      
-                        <i class="fa fa-fw fa-envelope"></i>Domain mail</a>
-                  </span>
-                
-                  <span class="links-of-author-item">
-                    <a href="mailto:2587188250@qq.com" target="_blank" title="QQ邮箱">
-                      
-                        <i class="fa fa-fw fa-envelope"></i>QQ邮箱</a>
-                  </span>
-                
-            </div>
-          
-
-          
-          
-
-          
-          
-            <div class="links-of-blogroll motion-element links-of-blogroll-inline">
-              <div class="links-of-blogroll-title">
-                <i class="fa  fa-fw fa-link"></i>
-                Links
-              </div>
-              <ul class="links-of-blogroll-list">
-                
-                  <li class="links-of-blogroll-item">
-                    <a href="https://xeondu.github.io/" title="天心度" target="_blank">天心度</a>
-                  </li>
-                
-              </ul>
-            </div>
-          
-          
-
-        </div>
-      </section>
-
-      
-
-      
-
-    </div>
-  </aside>
-
-
+        <li class="prev">
+            <a href="/2018/11/25/Github-START/">
+                <i class="cube-icon cube-prev" aria-hidden="true"></i>
+                Github,START!!
+            </a>
+        </li>
         
-      </div>
-    </main>
-
-    <footer id="footer" class="footer">
-      <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
-  <span class="with-love">
-    <i class="fa fa-user"></i>
-  </span>
-  <span class="author" itemprop="copyrightHolder">PiCpo</span>
-
-  
+        
+        <li class="next">
+            <a href="/2018/11/07/Github访问比较慢的解决方法/">
+                Github访问比较慢的解决方法
+                <i class="cube-icon cube-next" aria-hidden="true"></i>
+            </a>
+        </li>
+        
+    </ul>
 </div>
 
 
-  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+<!-- TODO 根据theme.comment的内容进行入口选择 -->
 
 
 
-  <span class="post-meta-divider">|</span>
+        </div>
+        <div class="cube-right">
+            
 
-
-
-  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
-
-
-
-
-        
-
-
-
-
-
-
-
-        
-      </div>
-    </footer>
-
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
-    
-
-    
-
-  </div>
-
-  
-
-<script type="text/javascript">
-  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
-    window.Promise = null;
-  }
-</script>
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-  
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
-
-
-
-  
-  
-
-
-  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
-
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
-
-
-
-  
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
-
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
-
-
-
-  
-
-
-  
-
-
-
-
-	
-
-
-
-
-
-  
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
-  <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
-  
-  <script src="/js/src/md5.min.js"></script>
-
-   <script type="text/javascript">
-        var gitalk = new Gitalk({
-          clientID: '7feb5be9f995b78f93eb',
-          clientSecret: '75e35cbf42bf9b69ce3eed52757b79ade3d39897',
-          repo: 'comment',
-          owner: 'picpo',
-          admin: ['picpo'],
-          id: md5(location.pathname),
-          distractionFreeMode: 'true'
-        })
-        gitalk.render('gitalk-container')           
-       </script>
-
-
-  
-
-  <script type="text/javascript">
-    // Popup Window;
-    var isfetched = false;
-    var isXml = true;
-    // Search DB path;
-    var search_path = "search.xml";
-    if (search_path.length === 0) {
-      search_path = "search.xml";
-    } else if (/json$/i.test(search_path)) {
-      isXml = false;
-    }
-    var path = "/" + search_path;
-    // monitor main search box;
-
-    var onPopupClose = function (e) {
-      $('.popup').hide();
-      $('#local-search-input').val('');
-      $('.search-result-list').remove();
-      $('#no-result').remove();
-      $(".local-search-pop-overlay").remove();
-      $('body').css('overflow', '');
-    }
-
-    function proceedsearch() {
-      $("body")
-        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
-        .css('overflow', 'hidden');
-      $('.search-popup-overlay').click(onPopupClose);
-      $('.popup').toggle();
-      var $localSearchInput = $('#local-search-input');
-      $localSearchInput.attr("autocapitalize", "none");
-      $localSearchInput.attr("autocorrect", "off");
-      $localSearchInput.focus();
-    }
-
-    // search function;
-    var searchFunc = function(path, search_id, content_id) {
-      'use strict';
-
-      // start loading animation
-      $("body")
-        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
-          '<div id="search-loading-icon">' +
-          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
-          '</div>' +
-          '</div>')
-        .css('overflow', 'hidden');
-      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
-
-      $.ajax({
-        url: path,
-        dataType: isXml ? "xml" : "json",
-        async: true,
-        success: function(res) {
-          // get the contents from search data
-          isfetched = true;
-          $('.popup').detach().appendTo('.header-inner');
-          var datas = isXml ? $("entry", res).map(function() {
-            return {
-              title: $("title", this).text(),
-              content: $("content",this).text(),
-              url: $("url" , this).text()
-            };
-          }).get() : res;
-          var input = document.getElementById(search_id);
-          var resultContent = document.getElementById(content_id);
-          var inputEventFunction = function() {
-            var searchText = input.value.trim().toLowerCase();
-            var keywords = searchText.split(/[\s\-]+/);
-            if (keywords.length > 1) {
-              keywords.push(searchText);
-            }
-            var resultItems = [];
-            if (searchText.length > 0) {
-              // perform local searching
-              datas.forEach(function(data) {
-                var isMatch = false;
-                var hitCount = 0;
-                var searchTextCount = 0;
-                var title = data.title.trim();
-                var titleInLowerCase = title.toLowerCase();
-                var content = data.content.trim().replace(/<[^>]+>/g,"");
-                var contentInLowerCase = content.toLowerCase();
-                var articleUrl = decodeURIComponent(data.url);
-                var indexOfTitle = [];
-                var indexOfContent = [];
-                // only match articles with not empty titles
-                if(title != '') {
-                  keywords.forEach(function(keyword) {
-                    function getIndexByWord(word, text, caseSensitive) {
-                      var wordLen = word.length;
-                      if (wordLen === 0) {
-                        return [];
-                      }
-                      var startPosition = 0, position = [], index = [];
-                      if (!caseSensitive) {
-                        text = text.toLowerCase();
-                        word = word.toLowerCase();
-                      }
-                      while ((position = text.indexOf(word, startPosition)) > -1) {
-                        index.push({position: position, word: word});
-                        startPosition = position + wordLen;
-                      }
-                      return index;
-                    }
-
-                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
-                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
-                  });
-                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
-                    isMatch = true;
-                    hitCount = indexOfTitle.length + indexOfContent.length;
-                  }
-                }
-
-                // show search results
-
-                if (isMatch) {
-                  // sort index by position of keyword
-
-                  [indexOfTitle, indexOfContent].forEach(function (index) {
-                    index.sort(function (itemLeft, itemRight) {
-                      if (itemRight.position !== itemLeft.position) {
-                        return itemRight.position - itemLeft.position;
-                      } else {
-                        return itemLeft.word.length - itemRight.word.length;
-                      }
-                    });
-                  });
-
-                  // merge hits into slices
-
-                  function mergeIntoSlice(text, start, end, index) {
-                    var item = index[index.length - 1];
-                    var position = item.position;
-                    var word = item.word;
-                    var hits = [];
-                    var searchTextCountInSlice = 0;
-                    while (position + word.length <= end && index.length != 0) {
-                      if (word === searchText) {
-                        searchTextCountInSlice++;
-                      }
-                      hits.push({position: position, length: word.length});
-                      var wordEnd = position + word.length;
-
-                      // move to next position of hit
-
-                      index.pop();
-                      while (index.length != 0) {
-                        item = index[index.length - 1];
-                        position = item.position;
-                        word = item.word;
-                        if (wordEnd > position) {
-                          index.pop();
-                        } else {
-                          break;
-                        }
-                      }
-                    }
-                    searchTextCount += searchTextCountInSlice;
-                    return {
-                      hits: hits,
-                      start: start,
-                      end: end,
-                      searchTextCount: searchTextCountInSlice
-                    };
-                  }
-
-                  var slicesOfTitle = [];
-                  if (indexOfTitle.length != 0) {
-                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
-                  }
-
-                  var slicesOfContent = [];
-                  while (indexOfContent.length != 0) {
-                    var item = indexOfContent[indexOfContent.length - 1];
-                    var position = item.position;
-                    var word = item.word;
-                    // cut out 100 characters
-                    var start = position - 20;
-                    var end = position + 80;
-                    if(start < 0){
-                      start = 0;
-                    }
-                    if (end < position + word.length) {
-                      end = position + word.length;
-                    }
-                    if(end > content.length){
-                      end = content.length;
-                    }
-                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
-                  }
-
-                  // sort slices in content by search text's count and hits' count
-
-                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
-                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
-                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
-                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
-                      return sliceRight.hits.length - sliceLeft.hits.length;
-                    } else {
-                      return sliceLeft.start - sliceRight.start;
-                    }
-                  });
-
-                  // select top N slices in content
-
-                  var upperBound = parseInt('1');
-                  if (upperBound >= 0) {
-                    slicesOfContent = slicesOfContent.slice(0, upperBound);
-                  }
-
-                  // highlight title and content
-
-                  function highlightKeyword(text, slice) {
-                    var result = '';
-                    var prevEnd = slice.start;
-                    slice.hits.forEach(function (hit) {
-                      result += text.substring(prevEnd, hit.position);
-                      var end = hit.position + hit.length;
-                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
-                      prevEnd = end;
-                    });
-                    result += text.substring(prevEnd, slice.end);
-                    return result;
-                  }
-
-                  var resultItem = '';
-
-                  if (slicesOfTitle.length != 0) {
-                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
-                  } else {
-                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
-                  }
-
-                  slicesOfContent.forEach(function (slice) {
-                    resultItem += "<a href='" + articleUrl + "'>" +
-                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
-                      "...</p>" + "</a>";
-                  });
-
-                  resultItem += "</li>";
-                  resultItems.push({
-                    item: resultItem,
-                    searchTextCount: searchTextCount,
-                    hitCount: hitCount,
-                    id: resultItems.length
-                  });
-                }
-              })
-            };
-            if (keywords.length === 1 && keywords[0] === "") {
-              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
-            } else if (resultItems.length === 0) {
-              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
-            } else {
-              resultItems.sort(function (resultLeft, resultRight) {
-                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
-                  return resultRight.searchTextCount - resultLeft.searchTextCount;
-                } else if (resultLeft.hitCount !== resultRight.hitCount) {
-                  return resultRight.hitCount - resultLeft.hitCount;
-                } else {
-                  return resultRight.id - resultLeft.id;
-                }
-              });
-              var searchResultList = '<ul class=\"search-result-list\">';
-              resultItems.forEach(function (result) {
-                searchResultList += result.item;
-              })
-              searchResultList += "</ul>";
-              resultContent.innerHTML = searchResultList;
-            }
-          }
-
-          if ('auto' === 'auto') {
-            input.addEventListener('input', inputEventFunction);
-          } else {
-            $('.search-icon').click(inputEventFunction);
-            input.addEventListener('keypress', function (event) {
-              if (event.keyCode === 13) {
-                inputEventFunction();
-              }
-            });
-          }
-
-          // remove loading animation
-          $(".local-search-pop-overlay").remove();
-          $('body').css('overflow', '');
-
-          proceedsearch();
-        }
-      });
-    }
-
-    // handle and trigger popup window;
-    $('.popup-trigger').click(function(e) {
-      e.stopPropagation();
-      if (isfetched === false) {
-        searchFunc(path, 'local-search-input', 'local-search-result');
-      } else {
-        proceedsearch();
-      };
-    });
-
-    $('.popup-btn-close').click(onPopupClose);
-    $('.popup').click(function(e){
-      e.stopPropagation();
-    });
-    $(document).on('keyup', function (event) {
-      var shouldDismissSearchPopup = event.which === 27 &&
-        $('.search-popup').is(':visible');
-      if (shouldDismissSearchPopup) {
-        onPopupClose();
-      }
-    });
-  </script>
-
-
-
-
-
-  
-
-  
-
-  
+<div class="cube-search cube-sidebar" id="cube-search">
+    <div class="search-container">
+        <input type="text" placeholder="搜索" class="cube-search-input" id="cube-search-input">
+        <i class="cube-icon cube-icon-search cube-search-submit" aria-hidden="true"></i>
+    </div>
+    <!-- TODO 通过给window赋一个全局变量，通过脚本赋值 -->
+</div>
 <script>
-(function(){
-    var bp = document.createElement('script');
-    var curProtocol = window.location.protocol.split(':')[0];
-    if (curProtocol === 'https') {
-        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
-    }
-    else {
-        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-    }
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(bp, s);
-})();
+    (function (window) {
+        'use strict';
+        window.searchModule = {}
+        window.searchModule.JSONUrl = '/content.json'
+        window.searchModule.rootUrl = '/'
+    })(window)
+</script>
+<div class="cube-search-form">
+    <div class="cube-search-control">
+        <input type="text" placeholder="搜索" class="search-input">
+        <a class="close-button">
+            <i class="cube-icon cube-close" aria-hidden="true"></i>
+        </a>
+    </div>
+    <div class="cube-search-result"></div>
+</div>
+
+
+<div class="cube-author cube-sidebar" id="cube-author">
+    
+    
+    <span>PiCpo</span>
+    
+    
+    <div class="count">
+        <a class="count articles"><span>27</span>文章</a>
+        <a class="count tags"><span>16</span>标签</a>
+        <a class="count categories"><span>0</span>分类</a>
+    </div>
+</div>
+
+
+
+<div class="cube-music cube-sidebar" id="cube-music">
+    <div class="cube-player aplayer" id="cube-player"></div>
+</div>
+<script>
+    (function (window) {
+        window.musicModule = {}
+        window.musicModule.musicConfig = '{"narrow":false,"autoplay":false,"showlrc":3,"theme":"#b7daff","mutex":true,"mode":"circulation","preload":"auto","listmaxheight":"513px","music":[{"title":"Dear friends","author":"TRIPLANE","url":"http://cube-1252774894.cosgz.myqcloud.com/music/source/TRIPLANE - Dear friends.mp3","lrc":"http://cube-1252774894.cosgz.myqcloud.com/music/lrc/Dear friends - TRIPLANE.lrc","pic":"http://cube-1252774894.cosgz.myqcloud.com/music/image/TRIPLANE - Dear friends.jpg"},{"title":"Butter-Fly","author":"和田光司","url":"http://cube-1252774894.cosgz.myqcloud.com/music/source/和田光司 - Butter-Fly (ピアノヴァージョン).mp3","lrc":"http://cube-1252774894.cosgz.myqcloud.com/music/lrc/Butter-Fly (ピアノヴァージョン) - 和田光司.lrc","pic":"http://cube-1252774894.cosgz.myqcloud.com/music/image/和田光司 - Butter-Fly (ピアノヴァージョン).jpg"},{"title":"宵闇花火","author":"葉月ゆら","url":"http://cube-1252774894.cosgz.myqcloud.com/music/source/葉月ゆら - 宵闇花火.mp3","lrc":"http://cube-1252774894.cosgz.myqcloud.com/music/lrc/宵闇花火 - 葉月ゆら.lrc","pic":"http://cube-1252774894.cosgz.myqcloud.com/music/image/葉月ゆら - 宵闇花火.jpg"}]}'
+        window.musicModule.lrcConfig = {
+            open: '开启歌词',
+            close: '关闭歌词'
+        }
+    })(window)
 </script>
 
 
-  
-  
 
-  
+<div class="cube-recent-posts cube-sidebar" id="cube-recent-posts">
+    <div class="title">
+        <a>近期文章</a>
+    </div>
+    <ul class="list">
+        
+        
+        <li>
+            <!-- TODO 如果文章要显示图片，那么在front-matter上添加preview属性(url or path) -->
+            
+            <div class="normal">
+                <p class="index first">
+                    <span>1</span>
+                </p>
+                <p class="title">
+                    <a href="/2019/03/09/树莓派迅雷远程下载/" title="树莓派迅雷远程下载">树莓派迅雷远程下载</a>
+                </p>
+            </div>
+            
+        </li>
+        
+        
+        
+        <li>
+            <div class="normal">
+                <p class="index">
+                    <span>2</span>
+                </p>
+                <p class="title">
+                    <a href="/2019/02/24/删除说说，回归虚无/" title="删除说说，回归虚无">删除说说，回归虚无</a>
+                </p>
+            </div>
+        </li>
+        
+        
+        
+        <li>
+            <div class="normal">
+                <p class="index">
+                    <span>3</span>
+                </p>
+                <p class="title">
+                    <a href="/2019/02/22/用树莓派做FM发射器架设小型电台/" title="用树莓派做FM发射器架设小型电台">用树莓派做FM发射器架设小型电台</a>
+                </p>
+            </div>
+        </li>
+        
+        
+        
+        <li>
+            <div class="normal">
+                <p class="index">
+                    <span>4</span>
+                </p>
+                <p class="title">
+                    <a href="/2019/02/04/新春快乐/" title="新春快乐">新春快乐</a>
+                </p>
+            </div>
+        </li>
+        
+        
+        
+        <li>
+            <div class="normal">
+                <p class="index">
+                    <span>5</span>
+                </p>
+                <p class="title">
+                    <a href="/2019/02/01/拉菲新年皮肤Live2d欣赏/" title="拉菲新年皮肤Live2d欣赏">拉菲新年皮肤Live2d欣赏</a>
+                </p>
+            </div>
+        </li>
+        
+        
+    </ul>
+</div>
 
-  
 
-  
 
+
+
+<div class="cube-tagcloud cube-sidebar" id="cube-tagcloud">
+    <div class="title">
+        <a href="/tags">标签云</a>
+    </div>
+    <div class="cube-boxs">
+        
+        
+        <div class="cube-box ">
+            <a href="/tags/野生技术协会/">#野生技术协会</a>
+        </div>
+        
+        
+        <div class="cube-box ">
+            <a href="/tags/GitHub/">#GitHub</a>
+        </div>
+        
+        
+        <div class="cube-box ">
+            <a href="/tags/Hexo/">#Hexo</a>
+        </div>
+        
+        
+        <div class="cube-box-bg ">
+            <a href="/tags/Bilibili/">#Bilibili</a>
+        </div>
+        
+        
+        <div class="cube-box ">
+            <a href="/tags/Github/">#Github</a>
+        </div>
+        
+        
+        <div class="cube-box ">
+            <a href="/tags/markdown/">#markdown</a>
+        </div>
+        
+        
+        <div class="cube-box ">
+            <a href="/tags/Pixiv/">#Pixiv</a>
+        </div>
+        
+        
+        <div class="cube-box ">
+            <a href="/tags/Google学术/">#Google学术</a>
+        </div>
+        
+        
+        <div class="cube-box ">
+            <a href="/tags/鱼塘/">#鱼塘</a>
+        </div>
+        
+        
+        <div class="cube-box ">
+            <a href="/tags/arduino/">#arduino</a>
+        </div>
+        
+        
+        <div class="cube-box ">
+            <a href="/tags/搜索引擎/">#搜索引擎</a>
+        </div>
+        
+        
+        <div class="cube-box ">
+            <a href="/tags/baidu/">#baidu</a>
+        </div>
+        
+        
+        <div class="cube-box-bg ">
+            <a href="/tags/音乐/">#音乐</a>
+        </div>
+        
+        
+        <div class="cube-box ">
+            <a href="/tags/万物起源/">#万物起源</a>
+        </div>
+        
+        
+        <div class="cube-box ">
+            <a href="/tags/树莓派/">#树莓派</a>
+        </div>
+        
+        
+        <div class="cube-box ">
+            <a href="/tags/gitalk/">#gitalk</a>
+        </div>
+        
+    </div>
+</div>
+
+
+
+<div class="cube-links cube-sidebar" id="cube-links">
+    <div class="title">
+        <a>个人链接</a>
+    </div>
+    <ul class="list">
+        
+        <li>
+            
+            
+            <img src="http://cube-1252774894.cosgz.myqcloud.com/links/GitHub.png">
+            
+            <a href="https://github.com/picpo" target="_blank">GitHub</a>
+        </li>
+        
+    </ul>
+</div>
+
+
+
+<div class="cube-friend-links cube-sidebar" id="cube-friend-links">
+    <div class="title">
+        <a>友情链接</a>
+    </div>
+    <ul class="list">
+        
+        <li>
+            <!-- TODO change avatar.png to friend.png-->
+            <img src="/images/friend_links.jpg ">
+            <a href="https://xeondu.github.io/" target="_blank">天心度</a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+    </div>
+</div>
+<footer class="cube-footer">
+    
+© 2017 PiCpo
+
+<br>
+Powered by <a href="https://hexo.io/" target="_blank">Hexo</a>.&nbsp;Theme by <a href="https://github.com/ZEROKISEKI" target="_blank">AONOSORA</a>
+</footer>
+<!-- inject:script -->
+<script src="/js/script.js"></script>
+<!-- endinject -->
+<div class="cube-loading out"></div>
 <script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","model":{"jsonPath":"/live2dw/assets/snow_miku.model.json"},"display":{"position":"right","width":200,"height":400},"mobile":{"show":true},"log":false,"tagMode":false});</script></body>
 </html>
