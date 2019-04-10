@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.perpicpo.cn/album/index.html</loc>
+    
+    <lastmod>2019-04-10T15:19:37.248Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.perpicpo.cn/about/index.html</loc>
     
-    <lastmod>2019-04-07T15:51:08.182Z</lastmod>
+    <lastmod>2019-04-10T15:19:28.744Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.perpicpo.cn/favor/index.html</loc>
+    
+    <lastmod>2019-04-10T15:06:18.995Z</lastmod>
     
   </url>
   
@@ -65,13 +79,6 @@
   </url>
   
   <url>
-    <loc>https://www.perpicpo.cn/favor/index.html</loc>
-    
-    <lastmod>2019-01-13T14:39:05.157Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://www.perpicpo.cn/personal_space/index.html</loc>
     
     <lastmod>2019-01-08T15:49:39.419Z</lastmod>
@@ -89,13 +96,6 @@
     <loc>https://www.perpicpo.cn/2018/12/02/TheBeatles/</loc>
     
     <lastmod>2018-12-29T04:31:14.309Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.perpicpo.cn/album/index.html</loc>
-    
-    <lastmod>2018-12-29T04:26:41.067Z</lastmod>
     
   </url>
   
@@ -131,13 +131,6 @@
     <loc>https://www.perpicpo.cn/2018/11/07/Github%E8%AE%BF%E9%97%AE%E6%AF%94%E8%BE%83%E6%85%A2%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95/</loc>
     
     <lastmod>2018-11-25T07:38:59.464Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.perpicpo.cn/tags/index.html</loc>
-    
-    <lastmod>2018-11-16T14:40:10.209Z</lastmod>
     
   </url>
   
