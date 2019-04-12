@@ -218,6 +218,25 @@
 
 <!-- TODO 根据theme.comment的内容进行入口选择 -->
 
+    <!-- 因为gitment里面也有gitment-container，所以这里就改为gitment-comment -->
+<div class="gitment-comment">
+    <div id="container"></div>
+</div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+    var gitment = new Gitment({
+        // id default is location.href
+        owner: 'picpo',
+        repo: 'comment',
+        oauth: {
+            client_id: '7feb5be9f995b78f93eb',
+            client_secret: '75e35cbf42bf9b69ce3eed52757b79ade3d39897',
+        },
+    })
+    gitment.render('container')
+</script>
+    
 
 
         </div>
@@ -418,7 +437,7 @@
         </div>
         
         
-        <div class="cube-box-bg ">
+        <div class="cube-box ">
             <a href="/tags/markdown/">#markdown</a>
         </div>
         
@@ -428,12 +447,12 @@
         </div>
         
         
-        <div class="cube-box-bg ">
+        <div class="cube-box ">
             <a href="/tags/Google学术/">#Google学术</a>
         </div>
         
         
-        <div class="cube-box ">
+        <div class="cube-box-bg ">
             <a href="/tags/鱼塘/">#鱼塘</a>
         </div>
         
@@ -443,7 +462,7 @@
         </div>
         
         
-        <div class="cube-box-bg ">
+        <div class="cube-box ">
             <a href="/tags/搜索引擎/">#搜索引擎</a>
         </div>
         
@@ -458,7 +477,7 @@
         </div>
         
         
-        <div class="cube-box-bg ">
+        <div class="cube-box ">
             <a href="/tags/万物起源/">#万物起源</a>
         </div>
         
@@ -468,7 +487,7 @@
         </div>
         
         
-        <div class="cube-box-bg ">
+        <div class="cube-box ">
             <a href="/tags/gitalk/">#gitalk</a>
         </div>
         
@@ -494,9 +513,25 @@
         <li>
             
             
-            <img src="https://ww1.sinaimg.cn/large/007i4MEmgy1g1ykv0k5rzj30b5093t8w.jpg">
+            <img src="https://ww1.sinaimg.cn/large/007i4MEmgy1g1zqfxdwcnj30e80e874k.jpg">
             
             <a href="https://weibo.com/picpo" target="_blank">微博</a>
+        </li>
+        
+        <li>
+            
+            
+            <img src="https://ww1.sinaimg.cn/large/007i4MEmgy1g1zqhkvfbij308c08c0sq.jpg">
+            
+            <a href="https://space.bilibili.com/21836562" target="_blank">比利♂比利</a>
+        </li>
+        
+        <li>
+            
+            
+            <img src="https://ww1.sinaimg.cn/large/007i4MEmgy1g1zqmyo7z5j30i20i2mxe.jpg">
+            
+            <a href="mailto:2587188250@qq.com" target="_blank">邮箱</a>
         </li>
         
     </ul>
