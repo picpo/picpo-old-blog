@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Yattaze！新主题cube]]></title>
+    <url>%2F2019%2F04%2F13%2FYattaze%EF%BC%81%E6%96%B0%E4%B8%BB%E9%A2%98cube%2F</url>
+    <content type="text"><![CDATA[久 等 了，这里是PiCpo更新后的博客。yattaze!终于变成自己所希望的样子了！我真的是High到不行！新 主 题就是这个，cube，是这位大佬写的。的确，相比之前用的next，cube加载的时间似乎跟长一些，但这也是没办法的事啊。。。毕竟next太简洁了，况且github在国外，连接自然有些慢。所以本来呢，打算在这次更新中，顺便把博客转移到coding上的，无奈需要微信，还是算了吧。。。live2d再三思考后，还是决定关了，因为这玩意儿太占空间和资源了。至于gitalk，由于新主题并不原生支持，想添加也不是不可以，就是太耗时间了，索性花功夫改为gitment了，一路上坑蛮多的，以后会专门写篇博客记录gitment，嗯，先咕咕了。就这些，以后的事以后再说吧，晚安，おやすみなさい(￣o￣) . z Z。]]></content>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[树莓派迅雷远程下载]]></title>
     <url>%2F2019%2F03%2F09%2F%E6%A0%91%E8%8E%93%E6%B4%BE%E8%BF%85%E9%9B%B7%E8%BF%9C%E7%A8%8B%E4%B8%8B%E8%BD%BD%2F</url>
     <content type="text"><![CDATA[生命不止，折腾不息。树莓派常被创客们（比如我）折腾，捣鼓出一些有意思的东西。拥有一台能24小时运行还低能耗的下载姬绝对爽。 安装迅雷1234mkdir thunder cd thunder wget https://github.com/kuoruan/Xware/raw/master/1.0.31/Xware1.0.31_armel_v5te_glibc.zip unzip Xware1.0.31_armel_v5te_glibc.zip 绑定先初始化 sudo ./portal 然后会有一大段输出信息，找到激活码 THE ACTIVE CODE IS: n***w 到这里绑定 绑定之后可以通过访问 http://192.168.1.37:9000/getsysinfo 来查看设备信息，其中192.168.1.37换成你的树莓派的 IP 地址，可以看到类似如下的信息 [ 0, 1, 1, 1, &quot;&quot;, 1, &quot;2.215.3.310&quot;, &quot;15*******86&quot;, 1, &quot;6*******8&quot;, 0 ] 其中，第一项：0表示返回结果成功第二项：1表示网络正常，0表示网络异常第四项：1表示设备已绑定，0表示设备未绑定第五项：未绑定的情况下，为绑定的需要的激活码第六项：1表示磁盘挂载成功，0表示磁盘挂载失败第八项：绑定的迅雷账号 启动，停止和开机启动迅雷服务 启动迅雷，命令行执行： sudo /home/pi/thunder/portal 停止迅雷，命令行执行： sudo /home/pi/thunder/portal -s 开机启动迅雷服务： sudo nano /etc/rc.local 在exit 0前一行，写上挂载命令，即： /home/pi/thunder/portal]]></content>
