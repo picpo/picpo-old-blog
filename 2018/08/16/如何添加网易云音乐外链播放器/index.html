@@ -210,9 +210,26 @@
 
 <!-- TODO 根据theme.comment的内容进行入口选择 -->
 
+    <!-- 因为gitment里面也有gitment-container，所以这里就改为gitment-comment -->
+<div class="gitment-comment">
+    <div id="container"></div>
+</div>
+<link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
+<script src="https://jjeejj.github.io/js/gitment.js"></script>
+<script>
+    var gitment = new Gitment({
+        // id default is location.href
+        owner: 'picpo',
+        repo: 'comment',
+        oauth: {
+            client_id: '7feb5be9f995b78f93eb',
+            client_secret: '75e35cbf42bf9b69ce3eed52757b79ade3d39897',
+        },
+    })
+    gitment.render('container')
+</script>
+    
 
-
-<!-- 使用gitalk作为评论系统 -->
 
         </div>
         <div class="cube-right">
@@ -397,17 +414,17 @@
         </div>
         
         
-        <div class="cube-box ">
+        <div class="cube-box-bg ">
             <a href="/tags/Hexo/">#Hexo</a>
         </div>
         
         
-        <div class="cube-box ">
+        <div class="cube-box-bg ">
             <a href="/tags/Bilibili/">#Bilibili</a>
         </div>
         
         
-        <div class="cube-box ">
+        <div class="cube-box-bg ">
             <a href="/tags/Github/">#Github</a>
         </div>
         
@@ -448,21 +465,21 @@
         
         
         <div class="cube-box ">
-            <a href="/tags/音乐/">#音乐</a>
-        </div>
-        
-        
-        <div class="cube-box ">
             <a href="/tags/万物起源/">#万物起源</a>
         </div>
         
         
         <div class="cube-box ">
-            <a href="/tags/树莓派/">#树莓派</a>
+            <a href="/tags/音乐/">#音乐</a>
         </div>
         
         
         <div class="cube-box-bg ">
+            <a href="/tags/树莓派/">#树莓派</a>
+        </div>
+        
+        
+        <div class="cube-box ">
             <a href="/tags/gitalk/">#gitalk</a>
         </div>
         

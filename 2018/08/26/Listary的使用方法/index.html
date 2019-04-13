@@ -230,9 +230,26 @@ TAL3U894S2BWA9629EFCXYYYG3S65WEQ
 
 <!-- TODO 根据theme.comment的内容进行入口选择 -->
 
+    <!-- 因为gitment里面也有gitment-container，所以这里就改为gitment-comment -->
+<div class="gitment-comment">
+    <div id="container"></div>
+</div>
+<link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
+<script src="https://jjeejj.github.io/js/gitment.js"></script>
+<script>
+    var gitment = new Gitment({
+        // id default is location.href
+        owner: 'picpo',
+        repo: 'comment',
+        oauth: {
+            client_id: '7feb5be9f995b78f93eb',
+            client_secret: '75e35cbf42bf9b69ce3eed52757b79ade3d39897',
+        },
+    })
+    gitment.render('container')
+</script>
+    
 
-
-<!-- 使用gitalk作为评论系统 -->
 
         </div>
         <div class="cube-right">
@@ -412,7 +429,7 @@ TAL3U894S2BWA9629EFCXYYYG3S65WEQ
         </div>
         
         
-        <div class="cube-box ">
+        <div class="cube-box-bg ">
             <a href="/tags/GitHub/">#GitHub</a>
         </div>
         
@@ -432,7 +449,7 @@ TAL3U894S2BWA9629EFCXYYYG3S65WEQ
         </div>
         
         
-        <div class="cube-box ">
+        <div class="cube-box-bg ">
             <a href="/tags/markdown/">#markdown</a>
         </div>
         
@@ -442,7 +459,7 @@ TAL3U894S2BWA9629EFCXYYYG3S65WEQ
         </div>
         
         
-        <div class="cube-box-bg ">
+        <div class="cube-box ">
             <a href="/tags/Google学术/">#Google学术</a>
         </div>
         
@@ -452,7 +469,7 @@ TAL3U894S2BWA9629EFCXYYYG3S65WEQ
         </div>
         
         
-        <div class="cube-box-bg ">
+        <div class="cube-box ">
             <a href="/tags/arduino/">#arduino</a>
         </div>
         
@@ -468,12 +485,12 @@ TAL3U894S2BWA9629EFCXYYYG3S65WEQ
         
         
         <div class="cube-box ">
-            <a href="/tags/音乐/">#音乐</a>
+            <a href="/tags/万物起源/">#万物起源</a>
         </div>
         
         
-        <div class="cube-box ">
-            <a href="/tags/万物起源/">#万物起源</a>
+        <div class="cube-box-bg ">
+            <a href="/tags/音乐/">#音乐</a>
         </div>
         
         
