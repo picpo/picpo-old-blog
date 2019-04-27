@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[bilibili公开代码（悲]]></title>
+    <url>%2F2019%2F04%2F27%2Fbilibili%E5%85%AC%E5%BC%80%E4%BB%A3%E7%A0%81%EF%BC%88%E6%82%B2%2F</url>
+    <content type="text"><![CDATA[短短几个小时，star将近1w，fork不计其数首先是程序员聚集地开始发openbilibili的github项目（https://github.com/openbilibili/go-common），现在项目已经被删除，空空如也，从这个用户来看，肯定是有预谋的操作，新注册的用户，注册完之后吧源代码完整的上传，于是广大的go和各种编程语言开始clone和download以及fork。感谢bilibili为我们提供如此优秀的GO语言教材。链接: https://pan.baidu.com/s/1Pli90-Jnymn6b50ZtB735g提取码: h3pa]]></content>
+      <tags>
+        <tag>野生技术协会</tag>
+        <tag>Github</tag>
+        <tag>Bilibili</tag>
+        <tag>鱼塘</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[Yattaze！新主题cube]]></title>
     <url>%2F2019%2F04%2F13%2FYattaze%EF%BC%81%E6%96%B0%E4%B8%BB%E9%A2%98cube%2F</url>
     <content type="text"><![CDATA[久 等 了，这里是PiCpo更新后的博客。yattaze!终于变成自己所希望的样子了！我真的是High到不行！新 主 题就是这个，cube，是这位大佬写的。的确，相比之前用的next，cube加载的时间似乎跟长一些，但这也是没办法的事啊。。。毕竟next太简洁了，况且github在国外，连接自然有些慢。所以本来呢，打算在这次更新中，顺便把博客转移到coding上的，无奈需要微信，还是算了吧。。。live2d再三思考后，还是决定关了，因为这玩意儿太占空间和资源了。至于gitalk，由于新主题并不原生支持，想添加也不是不可以，就是太耗时间了，索性花功夫改为gitment了，一路上坑蛮多的，以后会专门写篇博客记录gitment，嗯，先咕咕了。就这些，以后的事以后再说吧，晚安，おやすみなさい(￣o￣) . z Z。]]></content>
