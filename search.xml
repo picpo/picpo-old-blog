@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[给博客中插入音乐]]></title>
+    <url>%2F2019%2F05%2F02%2F%E7%BB%99%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%2F</url>
+    <content type="text"><![CDATA[gitment的事，让我先鸽一下。（如图）可以用一下这个插件hexo-tag-aplayer：https://github.com/grzhan/hexo-tag-aplayer安装： npm install hexo-tag-aplayer在markdown插入以下代码： var ap = new APlayer({ element: document.getElementById("aplayer-xViuggNj"), narrow: false, autoplay: true, showlrc: false, music: { title: "码头姑娘", author: "杜美心", url: "https://www.perpicpo.cn/music/碼頭姑娘.mp3", pic: "https://ae01.alicdn.com/kf/HTB12scxTSzqK1RjSZPcq6zTepXa5.jpg", lrc: "" } }); window.aplayers || (window.aplayers = []); window.aplayers.push(ap); ok，完事了。本文参考https://www.jianshu.com/p/26a7fc7cc185]]></content>
+      <tags>
+        <tag>野生技术协会</tag>
+        <tag>Hexo</tag>
+        <tag>Markdown</tag>
+        <tag>音乐</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[码头姑娘]]></title>
     <url>%2F2019%2F05%2F02%2F%E7%A0%81%E5%A4%B4%E5%A7%91%E5%A8%98%2F</url>
-    <content type="text"><![CDATA[var ap = new APlayer({ element: document.getElementById("aplayer-ZAIQpFcR"), narrow: false, autoplay: true, showlrc: false, music: { title: "码头姑娘", author: "杜美心", url: "https://www.perpicpo.cn/music/碼頭姑娘.mp3", pic: "https://ae01.alicdn.com/kf/HTB12scxTSzqK1RjSZPcq6zTepXa5.jpg", lrc: "" } }); window.aplayers || (window.aplayers = []); window.aplayers.push(ap); 大海满是波浪不见船入港她站在码头遥望着北方青丝飞上白霜心还惦着他信里没说的那句回答傻傻的姑娘戴一朵花等着他回来呀小小的嘴儿藏不住话都唱成情歌呀青山依旧岁月如常也不见她悲伤有情的人别问她你还愿意吗大海满是波浪不见船入港她站在码头遥望着北方青丝飞上白霜心还惦着他信里没说的那句回答傻傻的姑娘戴一朵花等着他回来呀小小的嘴 藏不住话都唱成情歌啊青山依旧岁月如常也不见她悲伤有情的人别问她你还愿意吗傻傻的姑娘戴一朵花等着他回来呀小小的嘴 藏不住话都唱成情歌啊青山依旧岁月如常也不见她悲伤有情的人别问她你还愿意吗若有来世你还愿意吗]]></content>
+    <content type="text"><![CDATA[var ap = new APlayer({ element: document.getElementById("aplayer-OixNgFNN"), narrow: false, autoplay: true, showlrc: false, music: { title: "码头姑娘", author: "杜美心", url: "https://www.perpicpo.cn/music/碼頭姑娘.mp3", pic: "https://ae01.alicdn.com/kf/HTB12scxTSzqK1RjSZPcq6zTepXa5.jpg", lrc: "" } }); window.aplayers || (window.aplayers = []); window.aplayers.push(ap); 大海满是波浪不见船入港她站在码头遥望着北方青丝飞上白霜心还惦着他信里没说的那句回答傻傻的姑娘戴一朵花等着他回来呀小小的嘴儿藏不住话都唱成情歌呀青山依旧岁月如常也不见她悲伤有情的人别问她你还愿意吗大海满是波浪不见船入港她站在码头遥望着北方青丝飞上白霜心还惦着他信里没说的那句回答傻傻的姑娘戴一朵花等着他回来呀小小的嘴 藏不住话都唱成情歌啊青山依旧岁月如常也不见她悲伤有情的人别问她你还愿意吗傻傻的姑娘戴一朵花等着他回来呀小小的嘴 藏不住话都唱成情歌啊青山依旧岁月如常也不见她悲伤有情的人别问她你还愿意吗若有来世你还愿意吗]]></content>
       <tags>
         <tag>鱼塘</tag>
         <tag>音乐</tag>
@@ -172,7 +183,7 @@
       <tags>
         <tag>野生技术协会</tag>
         <tag>Hexo</tag>
-        <tag>markdown</tag>
+        <tag>Markdown</tag>
       </tags>
   </entry>
   <entry>

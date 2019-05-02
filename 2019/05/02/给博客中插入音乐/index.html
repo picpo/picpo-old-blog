@@ -12,7 +12,7 @@
     
     
     
-    <title>Yattaze！新主题cube | PiCpoの動物園(=・ω・=)</title>
+    <title>给博客中插入音乐 | PiCpoの動物園(=・ω・=)</title>
     <!-- inject:style -->
     <link href="/css/style.css" rel="stylesheet" type="text/css">
     <!-- endinject -->
@@ -57,6 +57,8 @@
         }
     </style>
     
+<link rel="stylesheet" href="\assets\css\APlayer.min.css" class="aplayer-style-marker">
+<script src="\assets\js\APlayer.min.js" class="aplayer-script-marker"></script>
 </head>
 <body>
 <div class="cube-body">
@@ -163,25 +165,51 @@
     <div class="cube-content">
         <div class="cube-left">
             <div class="cube-article">
-    <h1 class="title">Yattaze！新主题cube</h1>
+    <h1 class="title">给博客中插入音乐</h1>
     
     <div class="cube-article-header">
         <div class="cube-article-date">
             <i class="cube-icon cube-icon-date" aria-hidden="true"></i>
             <!-- moment.js对象 -->
-            2019-04-13
+            2019-05-02
         </div>
         <div class="cube-article-tags">
     <i class="cube-icon cube-icon-tag" aria-hidden="true"></i>
     
+    <a href="/tags/野生技术协会/">#野生技术协会</a>
+    
     <a href="/tags/Hexo/">#Hexo</a>
+    
+    <a href="/tags/Markdown/">#Markdown</a>
+    
+    <a href="/tags/音乐/">#音乐</a>
     
 </div>
     </div>
     
     <div class="cube-article-content cube-markdown">
         
-        <p><img src="https://ae01.alicdn.com/kf/HTB14XZJS4naK1RjSZFBq6AW7VXaD.jpg" alt=""><br>久  等  了，这里是PiCpo更新后的博客。<br><a id="more"></a><br><img src="https://ae01.alicdn.com/kf/HTB1XZEdS3DqK1RjSZSyq6yxEVXaE.jpg" alt=""><br>yattaze!终于变成自己所希望的样子了！我真的是High到不行！<br>新  主  题就是<a href="https://github.com/ZEROKISEKI/hexo-theme-cube" target="_blank" rel="noopener">这个</a>，cube，是<a href="http://sora1.coding.me/" target="_blank" rel="noopener">这位大佬</a>写的。<br>的确，相比之前用的next，cube加载的时间似乎跟长一些，但这也是没办法的事啊。。。毕竟next太简洁了，况且github在国外，连接自然有些慢。<br>所以本来呢，打算在这次更新中，顺便把博客转移到coding上的，无奈需要微信，还是算了吧。。。<br>live2d再三思考后，还是决定关了，因为这玩意儿太占空间和资源了。<br>至于gitalk，由于新主题并不原生支持，想添加也不是不可以，就是太耗时间了，索性花功夫改为gitment了，一路上坑蛮多的，以后会专门写篇博客记录gitment，嗯，先咕咕了。<br>就这些，以后的事以后再说吧，晚安，おやすみなさい(￣o￣) . z Z。</p>
+        <p><img src="https://ae01.alicdn.com/kf/HTB1tjxXT6TpK1RjSZKPq6y3UpXaA.jpg" alt=""><br>gitment的事，让我先鸽一下。（如图）<br><a id="more"></a><br>可以用一下这个插件<br>hexo-tag-aplayer：<a href="https://github.com/grzhan/hexo-tag-aplayer" target="_blank" rel="noopener">https://github.com/grzhan/hexo-tag-aplayer</a><br>安装：<br>     npm install hexo-tag-aplayer<br>在markdown插入以下代码：<br>     
+        <div id="aplayer-xViuggNj" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+            <pre class="aplayer-lrc-content"></pre>
+        </div>
+        <script>
+          var ap = new APlayer({
+            element: document.getElementById("aplayer-xViuggNj"),
+            narrow: false,
+            autoplay: true,
+            showlrc: false,
+            music: {
+              title: "码头姑娘",
+              author: "杜美心",
+              url: "https://www.perpicpo.cn/music/碼頭姑娘.mp3",
+              pic: "https://ae01.alicdn.com/kf/HTB12scxTSzqK1RjSZPcq6zTepXa5.jpg",
+              lrc: ""
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        </script><br>ok，完事了。<br><img src="https://ae01.alicdn.com/kf/HTB1skVcT3HqK1RjSZJn762NLpXap.png" alt=""><br>本文参考<br><a href="https://www.jianshu.com/p/26a7fc7cc185" target="_blank" rel="noopener">https://www.jianshu.com/p/26a7fc7cc185</a></p>
 
     </div>
 </div>
@@ -189,17 +217,10 @@
 <div class="cube-article-nav">
     <ul>
         
-        <li class="prev">
-            <a href="/2019/04/27/bilibili公开代码（悲/">
-                <i class="cube-icon cube-prev" aria-hidden="true"></i>
-                bilibili公开代码（悲
-            </a>
-        </li>
-        
         
         <li class="next">
-            <a href="/2019/03/09/树莓派迅雷远程下载/">
-                树莓派迅雷远程下载
+            <a href="/2019/05/02/码头姑娘/">
+                码头姑娘
                 <i class="cube-icon cube-next" aria-hidden="true"></i>
             </a>
         </li>
@@ -219,7 +240,7 @@
 <script>
     var gitment = new Gitment({
         // id default is location.href
-id: 'Sat Apr 13 2019 23:41:54 GMT+0800',
+id: 'Thu May 02 2019 12:40:30 GMT+0800',
         owner: 'picpo',
         repo: 'comment',
         oauth: {
@@ -407,12 +428,12 @@ id: 'Sat Apr 13 2019 23:41:54 GMT+0800',
     <div class="cube-boxs">
         
         
-        <div class="cube-box-bg ">
+        <div class="cube-box ">
             <a href="/tags/野生技术协会/">#野生技术协会</a>
         </div>
         
         
-        <div class="cube-box-bg ">
+        <div class="cube-box ">
             <a href="/tags/GitHub/">#GitHub</a>
         </div>
         
@@ -427,7 +448,7 @@ id: 'Sat Apr 13 2019 23:41:54 GMT+0800',
         </div>
         
         
-        <div class="cube-box-bg ">
+        <div class="cube-box ">
             <a href="/tags/Github/">#Github</a>
         </div>
         
@@ -457,12 +478,12 @@ id: 'Sat Apr 13 2019 23:41:54 GMT+0800',
         </div>
         
         
-        <div class="cube-box ">
+        <div class="cube-box-bg ">
             <a href="/tags/arduino/">#arduino</a>
         </div>
         
         
-        <div class="cube-box ">
+        <div class="cube-box-bg ">
             <a href="/tags/搜索引擎/">#搜索引擎</a>
         </div>
         
