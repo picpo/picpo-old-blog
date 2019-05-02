@@ -163,6 +163,43 @@
     <div class="cube-content">
         <div class="cube-left">
             
+<div class="cube-excerpt" id="cube-excerpt-如何利用OneDrive同步Hexo文件夹">
+    <header class="cube-excerpt-header">
+        <h1><a href="/2018/09/02/如何利用OneDrive同步Hexo文件夹/">如何利用OneDrive同步Hexo文件夹</a></h1>
+        <div class="cube-excerpt-header-msg">
+            <div class="cube-excerpt-date">
+                <i class="cube-icon cube-icon-date" aria-hidden="true"></i>
+                2018-09-02
+            </div>
+            <div class="cube-excerpt-tags">
+                <i class="cube-icon cube-icon-tag" aria-hidden="true"></i>
+                
+                <a href="/tags/野生技术协会/" class="cube-excerpt-tag-link">#野生技术协会</a>
+                
+                <a href="/tags/Hexo/" class="cube-excerpt-tag-link">#Hexo</a>
+                
+            </div>
+        </div>
+    </header>
+    <article class="cube-excerpt-entry cube-markdown">
+        
+        
+           <p>以前都是把Hexo文件夹copy到OneDrive里，感觉仅仅是一个网盘备份功能。  </p>
+<p>有网友说：“现在每次都得把相关文件拷贝到这个OneDrive文件夹里，才能同步到云上。可以不可以通过设置，让本地某个文件夹的内容，自动同步到云上，省去手动拷贝的麻烦？”</p>
+<p>当然有办法啦！就是利用mklink符号链接来让OneDrive自动同步本地文件夹而不改变文件夹的原位置，非常的方便，解决了一直苦恼的同步问题。 </p>
+<p>具体操作：开始菜单处右键打开命令提示符（以管理员身份），输入命令：</p>
+<pre><code>mklink /d C:\Users\你的用户名\OneDrive\文件夹名 本地盘符:\文件夹名
+</code></pre><p>比如说我要同步Hexo文件夹，就是：  </p>
+<pre><code>mklink /d C:\Users\Administrator\OneDrive\blog F:\Hexo\blog  
+</code></pre><p>注意：命令后面和盘符前面有空格  </p>
+
+        
+    </article>
+    <footer class="cube-excerpt-footer">
+        <a class="cube-excerpt-more" href="/2018/09/02/如何利用OneDrive同步Hexo文件夹/">阅读全文</a>
+    </footer>
+</div>
+
 <div class="cube-excerpt" id="cube-excerpt-Pixiv改host">
     <header class="cube-excerpt-header">
         <h1><a href="/2018/08/26/Pixiv改host/">Pixiv改host</a></h1>
@@ -424,7 +461,7 @@ TAL3U894S2BWA9629EFCXYYYG3S65WEQ
     <a title="大人先生者，亦不失赤子之心。">大人先生者，亦不失赤子之心。</a>
     
     <div class="count">
-        <a class="count articles"><span>29</span>文章</a>
+        <a class="count articles"><span>30</span>文章</a>
         <a class="count tags"><span>16</span>标签</a>
         <a class="count categories"><span>0</span>分类</a>
     </div>
@@ -463,7 +500,7 @@ TAL3U894S2BWA9629EFCXYYYG3S65WEQ
                     <span>1</span>
                 </p>
                 <p class="title">
-                    <a href="/2019/04/27/bilibili公开代码（悲/" title="bilibili公开代码（悲">bilibili公开代码（悲</a>
+                    <a href="/2019/05/02/码头姑娘/" title="码头姑娘">码头姑娘</a>
                 </p>
             </div>
             
@@ -477,7 +514,7 @@ TAL3U894S2BWA9629EFCXYYYG3S65WEQ
                     <span>2</span>
                 </p>
                 <p class="title">
-                    <a href="/2019/04/13/Yattaze！新主题cube/" title="Yattaze！新主题cube">Yattaze！新主题cube</a>
+                    <a href="/2019/04/27/bilibili公开代码（悲/" title="bilibili公开代码（悲">bilibili公开代码（悲</a>
                 </p>
             </div>
         </li>
@@ -490,7 +527,7 @@ TAL3U894S2BWA9629EFCXYYYG3S65WEQ
                     <span>3</span>
                 </p>
                 <p class="title">
-                    <a href="/2019/03/09/树莓派迅雷远程下载/" title="树莓派迅雷远程下载">树莓派迅雷远程下载</a>
+                    <a href="/2019/04/13/Yattaze！新主题cube/" title="Yattaze！新主题cube">Yattaze！新主题cube</a>
                 </p>
             </div>
         </li>
@@ -503,7 +540,7 @@ TAL3U894S2BWA9629EFCXYYYG3S65WEQ
                     <span>4</span>
                 </p>
                 <p class="title">
-                    <a href="/2019/02/24/删除说说，回归虚无/" title="删除说说，回归虚无">删除说说，回归虚无</a>
+                    <a href="/2019/03/09/树莓派迅雷远程下载/" title="树莓派迅雷远程下载">树莓派迅雷远程下载</a>
                 </p>
             </div>
         </li>
@@ -516,7 +553,7 @@ TAL3U894S2BWA9629EFCXYYYG3S65WEQ
                     <span>5</span>
                 </p>
                 <p class="title">
-                    <a href="/2019/02/22/用树莓派做FM发射器架设小型电台/" title="用树莓派做FM发射器架设小型电台">用树莓派做FM发射器架设小型电台</a>
+                    <a href="/2019/02/24/删除说说，回归虚无/" title="删除说说，回归虚无">删除说说，回归虚无</a>
                 </p>
             </div>
         </li>
@@ -546,13 +583,8 @@ TAL3U894S2BWA9629EFCXYYYG3S65WEQ
         </div>
         
         
-        <div class="cube-box ">
+        <div class="cube-box-bg ">
             <a href="/tags/Hexo/">#Hexo</a>
-        </div>
-        
-        
-        <div class="cube-box ">
-            <a href="/tags/Github/">#Github</a>
         </div>
         
         
@@ -562,16 +594,21 @@ TAL3U894S2BWA9629EFCXYYYG3S65WEQ
         
         
         <div class="cube-box ">
-            <a href="/tags/markdown/">#markdown</a>
+            <a href="/tags/Github/">#Github</a>
         </div>
         
         
         <div class="cube-box ">
-            <a href="/tags/Pixiv/">#Pixiv</a>
+            <a href="/tags/markdown/">#markdown</a>
         </div>
         
         
         <div class="cube-box-bg ">
+            <a href="/tags/Pixiv/">#Pixiv</a>
+        </div>
+        
+        
+        <div class="cube-box ">
             <a href="/tags/Google学术/">#Google学术</a>
         </div>
         
@@ -581,7 +618,7 @@ TAL3U894S2BWA9629EFCXYYYG3S65WEQ
         </div>
         
         
-        <div class="cube-box ">
+        <div class="cube-box-bg ">
             <a href="/tags/arduino/">#arduino</a>
         </div>
         
@@ -591,12 +628,12 @@ TAL3U894S2BWA9629EFCXYYYG3S65WEQ
         </div>
         
         
-        <div class="cube-box ">
+        <div class="cube-box-bg ">
             <a href="/tags/baidu/">#baidu</a>
         </div>
         
         
-        <div class="cube-box ">
+        <div class="cube-box-bg ">
             <a href="/tags/音乐/">#音乐</a>
         </div>
         
