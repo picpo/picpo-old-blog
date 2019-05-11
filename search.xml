@@ -23,7 +23,7 @@
   <entry>
     <title><![CDATA[码头姑娘]]></title>
     <url>%2F2019%2F05%2F02%2F%E7%A0%81%E5%A4%B4%E5%A7%91%E5%A8%98%2F</url>
-    <content type="text"><![CDATA[var ap = new APlayer({ element: document.getElementById("aplayer-UdUbebFe"), narrow: false, autoplay: true, showlrc: false, music: { title: "码头姑娘", author: "杜美心", url: "https://www.perpicpo.cn/music/碼頭姑娘.mp3", pic: "https://ae01.alicdn.com/kf/HTB12scxTSzqK1RjSZPcq6zTepXa5.jpg", lrc: "" } }); window.aplayers || (window.aplayers = []); window.aplayers.push(ap); 大海满是波浪不见船入港她站在码头遥望着北方青丝飞上白霜心还惦着他信里没说的那句回答傻傻的姑娘戴一朵花等着他回来呀小小的嘴儿藏不住话都唱成情歌呀青山依旧岁月如常也不见她悲伤有情的人别问她你还愿意吗大海满是波浪不见船入港她站在码头遥望着北方青丝飞上白霜心还惦着他信里没说的那句回答傻傻的姑娘戴一朵花等着他回来呀小小的嘴 藏不住话都唱成情歌啊青山依旧岁月如常也不见她悲伤有情的人别问她你还愿意吗傻傻的姑娘戴一朵花等着他回来呀小小的嘴 藏不住话都唱成情歌啊青山依旧岁月如常也不见她悲伤有情的人别问她你还愿意吗若有来世你还愿意吗]]></content>
+    <content type="text"><![CDATA[var ap = new APlayer({ element: document.getElementById("aplayer-eXtUdnrN"), narrow: false, autoplay: true, showlrc: false, music: { title: "码头姑娘", author: "杜美心", url: "https://www.perpicpo.cn/music/碼頭姑娘.mp3", pic: "https://ae01.alicdn.com/kf/HTB12scxTSzqK1RjSZPcq6zTepXa5.jpg", lrc: "" } }); window.aplayers || (window.aplayers = []); window.aplayers.push(ap); 大海满是波浪不见船入港她站在码头遥望着北方青丝飞上白霜心还惦着他信里没说的那句回答傻傻的姑娘戴一朵花等着他回来呀小小的嘴儿藏不住话都唱成情歌呀青山依旧岁月如常也不见她悲伤有情的人别问她你还愿意吗大海满是波浪不见船入港她站在码头遥望着北方青丝飞上白霜心还惦着他信里没说的那句回答傻傻的姑娘戴一朵花等着他回来呀小小的嘴 藏不住话都唱成情歌啊青山依旧岁月如常也不见她悲伤有情的人别问她你还愿意吗傻傻的姑娘戴一朵花等着他回来呀小小的嘴 藏不住话都唱成情歌啊青山依旧岁月如常也不见她悲伤有情的人别问她你还愿意吗若有来世你还愿意吗]]></content>
       <tags>
         <tag>鱼塘</tag>
         <tag>音乐</tag>
@@ -35,9 +35,9 @@
     <content type="text"><![CDATA[短短几个小时，star将近1w，fork不计其数首先是程序员聚集地开始发openbilibili的github项目（https://github.com/openbilibili/go-common）现在项目已经被删除，空空如也，从这个用户来看，肯定是有预谋的操作，新注册的用户，注册完之后吧源代码完整的上传，于是广大的go和各种编程语言开始clone和download以及fork。感谢bilibili为我们提供如此优秀的GO语言教材。链接: https://pan.baidu.com/s/1Pli90-Jnymn6b50ZtB735g提取码: h3pa]]></content>
       <tags>
         <tag>野生技术协会</tag>
+        <tag>Bilibili</tag>
         <tag>Github</tag>
         <tag>鱼塘</tag>
-        <tag>Bilibili</tag>
       </tags>
   </entry>
   <entry>
