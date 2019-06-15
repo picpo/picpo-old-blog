@@ -168,6 +168,46 @@
     <div class="cube-content">
         <div class="cube-left">
             
+<div class="cube-excerpt" id="cube-excerpt-用树莓派做FM发射器架设小型电台">
+    <header class="cube-excerpt-header">
+        <h1><a href="/2019/02/22/用树莓派做FM发射器架设小型电台/">用树莓派做FM发射器架设小型电台</a></h1>
+        <div class="cube-excerpt-header-msg">
+            <div class="cube-excerpt-date">
+                <i class="cube-icon cube-icon-date" aria-hidden="true"></i>
+                2019-02-22
+            </div>
+            <div class="cube-excerpt-tags">
+                <i class="cube-icon cube-icon-tag" aria-hidden="true"></i>
+                
+                <a href="/tags/树莓派/" class="cube-excerpt-tag-link">#树莓派</a>
+                
+            </div>
+        </div>
+    </header>
+    <article class="cube-excerpt-entry cube-markdown">
+        
+        
+           <p>树莓派的GPIO引脚，可以作为时钟信号输出，于是可以把音频信号通过树莓派进行FM调制后从该引脚发出，这样树莓派就成了一台微型FM电台，可以自己指定频率，打开调频收音机，调到对应频道就能收到树莓派播放的微型 FM 广播。<br><img src="https://ae01.alicdn.com/kf/HTB1XBcVbfvsK1Rjy0Fiq6zwtXXaG.jpg" alt=""><br>本片教程通过安装fm_transmitter来将树莓派变成微型FM电台。<br>安装编译工具  </p>
+<pre><code>sudo apt-get install make gcc g++  
+</code></pre><p>下载fm_transmitter  </p>
+<pre><code>sudo git clone https://github.com/markondej/fm_transmitter  
+</code></pre><p>然后进入 fm_transmitter 目录，执行make： </p>
+<pre><code>cd fm_transmitter
+sudo make  
+</code></pre><p>树莓派FM发射器开启命令格式为：  </p>
+<pre><code>sudo ./fm_transmitter [-f frequency] [-r] filename
+</code></pre><p>其中，frequency为指定的频道，filename为要播放wav格式的音频文件。</p>
+<p>例如，使用以下命令在100.6频道播放在本地的star_wars.wav(文件音频必须是wav文件16bit 44.1kHz单声道)：</p>
+<pre><code>sudo ./fm_transmitter -f 100.6 -r ./star_wars.wav
+</code></pre><p>没有在树莓派GPIO 4（PIN7）上接一根长长的杜邦线增强信号，直接播放，使用手机收听，在1米内音质很清晰，3米的范围仍然可以听的见，超过3米就不行了。</p>
+
+        
+    </article>
+    <footer class="cube-excerpt-footer">
+        <a class="cube-excerpt-more" href="/2019/02/22/用树莓派做FM发射器架设小型电台/">阅读全文</a>
+    </footer>
+</div>
+
 <div class="cube-excerpt" id="cube-excerpt-新春快乐">
     <header class="cube-excerpt-header">
         <h1><a href="/2019/02/04/新春快乐/">新春快乐</a></h1>
@@ -178,8 +218,6 @@
             </div>
             <div class="cube-excerpt-tags">
                 <i class="cube-icon cube-icon-tag" aria-hidden="true"></i>
-                
-                <a href="/tags/鱼塘/" class="cube-excerpt-tag-link">#鱼塘</a>
                 
             </div>
         </div>
@@ -206,8 +244,6 @@
             <div class="cube-excerpt-tags">
                 <i class="cube-icon cube-icon-tag" aria-hidden="true"></i>
                 
-                <a href="/tags/鱼塘/" class="cube-excerpt-tag-link">#鱼塘</a>
-                
             </div>
         </div>
     </header>
@@ -233,8 +269,6 @@
             </div>
             <div class="cube-excerpt-tags">
                 <i class="cube-icon cube-icon-tag" aria-hidden="true"></i>
-                
-                <a href="/tags/野生技术协会/" class="cube-excerpt-tag-link">#野生技术协会</a>
                 
                 <a href="/tags/Hexo/" class="cube-excerpt-tag-link">#Hexo</a>
                 
@@ -268,8 +302,6 @@
             <div class="cube-excerpt-tags">
                 <i class="cube-icon cube-icon-tag" aria-hidden="true"></i>
                 
-                <a href="/tags/鱼塘/" class="cube-excerpt-tag-link">#鱼塘</a>
-                
             </div>
         </div>
     </header>
@@ -281,34 +313,6 @@
     </article>
     <footer class="cube-excerpt-footer">
         <a class="cube-excerpt-more" href="/2019/01/01/新年快乐/">阅读全文</a>
-    </footer>
-</div>
-
-<div class="cube-excerpt" id="cube-excerpt-章口就莱">
-    <header class="cube-excerpt-header">
-        <h1><a href="/2018/12/30/章口就莱/">章口就莱</a></h1>
-        <div class="cube-excerpt-header-msg">
-            <div class="cube-excerpt-date">
-                <i class="cube-icon cube-icon-date" aria-hidden="true"></i>
-                2018-12-30
-            </div>
-            <div class="cube-excerpt-tags">
-                <i class="cube-icon cube-icon-tag" aria-hidden="true"></i>
-                
-                <a href="/tags/鱼塘/" class="cube-excerpt-tag-link">#鱼塘</a>
-                
-            </div>
-        </div>
-    </header>
-    <article class="cube-excerpt-entry cube-markdown">
-        
-        
-           <p>说起西游记，就不得不说起玄奘大师背后繁荣强盛的大唐。说起大唐的盛世，就必须讲讲这其中起到重要作用的科举制度。说到科举我就想到了期末考试。几周后，期末考试正式开始，我将继续表演挂科，文理两爆炸，继续以学渣的形象让各位笑话，请大家多多关注。<br>/折袖</p>
-
-        
-    </article>
-    <footer class="cube-excerpt-footer">
-        <a class="cube-excerpt-more" href="/2018/12/30/章口就莱/">阅读全文</a>
     </footer>
 </div>
 
@@ -427,9 +431,9 @@
     <a title="一个会代码却不会算法的屑">一个会代码却不会算法的屑</a>
     
     <div class="count">
-        <a class="count articles"><span>34</span>文章</a>
-        <a class="count tags"><span>18</span>标签</a>
-        <a class="count categories"><span>0</span>分类</a>
+        <a class="count articles"><span>35</span>文章</a>
+        <a class="count tags"><span>15</span>标签</a>
+        <a class="count categories"><span>4</span>分类</a>
     </div>
 </div>
 
@@ -466,7 +470,7 @@
                     <span>1</span>
                 </p>
                 <p class="title">
-                    <a href="/2019/06/07/高考加油/" title="高考加油">高考加油</a>
+                    <a href="/2019/06/15/Himitsu的绳艺画集/" title="Himitsu的绳艺画集">Himitsu的绳艺画集</a>
                 </p>
             </div>
             
@@ -480,7 +484,7 @@
                     <span>2</span>
                 </p>
                 <p class="title">
-                    <a href="/2019/06/02/丁聚酚/" title="丁聚酚">丁聚酚</a>
+                    <a href="/2019/06/07/高考加油/" title="高考加油">高考加油</a>
                 </p>
             </div>
         </li>
@@ -493,7 +497,7 @@
                     <span>3</span>
                 </p>
                 <p class="title">
-                    <a href="/2019/05/11/linux最佳发行版-win10/" title="linux最佳发行版---win10">linux最佳发行版---win10</a>
+                    <a href="/2019/06/02/丁聚酚/" title="丁聚酚">丁聚酚</a>
                 </p>
             </div>
         </li>
@@ -506,7 +510,7 @@
                     <span>4</span>
                 </p>
                 <p class="title">
-                    <a href="/2019/05/02/给博客中插入音乐/" title="给博客中插入音乐">给博客中插入音乐</a>
+                    <a href="/2019/05/11/linux最佳发行版-win10/" title="linux最佳发行版---win10">linux最佳发行版---win10</a>
                 </p>
             </div>
         </li>
@@ -519,7 +523,7 @@
                     <span>5</span>
                 </p>
                 <p class="title">
-                    <a href="/2019/05/02/码头姑娘/" title="码头姑娘">码头姑娘</a>
+                    <a href="/2019/05/02/给博客中插入音乐/" title="给博客中插入音乐">给博客中插入音乐</a>
                 </p>
             </div>
         </li>
@@ -530,6 +534,35 @@
 
 
 
+<div class="cube-categories cube-sidebar" id="cube-categories">
+    <div class="title">
+        <a href="/categories">分类</a>
+    </div>
+    <div class="cube-boxs">
+        
+        
+        <div class="cube-box ">
+            <a href="/categories/野生技术协会/">#野生技术协会</a>
+        </div>
+        
+        
+        <div class="cube-box ">
+            <a href="/categories/ACGN/">#ACGN</a>
+        </div>
+        
+        
+        <div class="cube-box ">
+            <a href="/categories/自然科学/">#自然科学</a>
+        </div>
+        
+        
+        <div class="cube-box ">
+            <a href="/categories/人文科学/">#人文科学</a>
+        </div>
+        
+    </div>
+</div>
+
 
 
 <div class="cube-tagcloud cube-sidebar" id="cube-tagcloud">
@@ -539,17 +572,17 @@
     <div class="cube-boxs">
         
         
-        <div class="cube-box-bg ">
-            <a href="/tags/野生技术协会/">#野生技术协会</a>
-        </div>
-        
-        
-        <div class="cube-box-bg ">
+        <div class="cube-box ">
             <a href="/tags/GitHub/">#GitHub</a>
         </div>
         
         
         <div class="cube-box ">
+            <a href="/tags/Google学术/">#Google学术</a>
+        </div>
+        
+        
+        <div class="cube-box-bg ">
             <a href="/tags/Hexo/">#Hexo</a>
         </div>
         
@@ -559,7 +592,7 @@
         </div>
         
         
-        <div class="cube-box-bg ">
+        <div class="cube-box ">
             <a href="/tags/Github/">#Github</a>
         </div>
         
@@ -575,16 +608,6 @@
         
         
         <div class="cube-box ">
-            <a href="/tags/Google学术/">#Google学术</a>
-        </div>
-        
-        
-        <div class="cube-box ">
-            <a href="/tags/鱼塘/">#鱼塘</a>
-        </div>
-        
-        
-        <div class="cube-box ">
             <a href="/tags/音乐/">#音乐</a>
         </div>
         
@@ -594,17 +617,12 @@
         </div>
         
         
-        <div class="cube-box-bg ">
+        <div class="cube-box ">
             <a href="/tags/Windows/">#Windows</a>
         </div>
         
         
-        <div class="cube-box ">
-            <a href="/tags/自然科学/">#自然科学</a>
-        </div>
-        
-        
-        <div class="cube-box ">
+        <div class="cube-box-bg ">
             <a href="/tags/搜索引擎/">#搜索引擎</a>
         </div>
         
@@ -614,12 +632,12 @@
         </div>
         
         
-        <div class="cube-box-bg ">
+        <div class="cube-box ">
             <a href="/tags/万物起源/">#万物起源</a>
         </div>
         
         
-        <div class="cube-box ">
+        <div class="cube-box-bg ">
             <a href="/tags/树莓派/">#树莓派</a>
         </div>
         
