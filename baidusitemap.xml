@@ -4,6 +4,46 @@
 
     
   <url>
+    <loc>https://www.perpicpo.cn/2018/10/27/%E9%BB%84%E9%87%91%E4%B9%8B%E9%AD%82/</loc>
+    <lastmod>2019-06-16T04:02:02.911Z</lastmod>
+    <data>
+        <display>
+        <title>黄金之魂</title>
+        <pubTime>2018-10-27T12:15:10.000Z</pubTime>
+        
+        <tag>JOJO</tag>
+         
+         
+           
+             
+              <breadCrumb title="ACGN" url="https://www.perpicpo.cn/categories/ACGN/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://www.perpicpo.cn/2019/06/16/JOJO%E7%9A%84%E5%A5%87%E5%A6%99%E5%86%92%E9%99%A9/</loc>
+    <lastmod>2019-06-16T04:02:01.394Z</lastmod>
+    <data>
+        <display>
+        <title>JOJO的奇妙冒险</title>
+        <pubTime>2019-06-16T03:47:31.000Z</pubTime>
+        
+        <tag>JOJO</tag>
+         
+         
+           
+             
+              <breadCrumb title="ACGN" url="https://www.perpicpo.cn/categories/ACGN/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://www.perpicpo.cn/2019/06/15/Himitsu%E7%9A%84%E7%BB%B3%E8%89%BA%E7%94%BB%E9%9B%86/</loc>
     <lastmod>2019-06-16T03:43:14.636Z</lastmod>
     <data>
@@ -229,24 +269,6 @@
         <display>
         <title>拉菲新年皮肤Live2d欣赏</title>
         <pubTime>2019-02-01T04:24:50.000Z</pubTime>
-        
-         
-           
-             
-              <breadCrumb title="ACGN" url="https://www.perpicpo.cn/categories/ACGN/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://www.perpicpo.cn/2018/10/27/%E9%BB%84%E9%87%91%E4%B9%8B%E9%AD%82/</loc>
-    <lastmod>2019-06-15T13:03:26.948Z</lastmod>
-    <data>
-        <display>
-        <title>黄金之魂</title>
-        <pubTime>2018-10-27T12:15:10.000Z</pubTime>
         
          
            
@@ -639,9 +661,9 @@
         <title>bilibili公开代码（悲</title>
         <pubTime>2019-04-27T07:37:05.000Z</pubTime>
         
-        <tag>Bilibili</tag>
-         
         <tag>Github</tag>
+         
+        <tag>Bilibili</tag>
          
          
            
