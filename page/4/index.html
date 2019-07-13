@@ -168,6 +168,38 @@
     <div class="cube-content">
         <div class="cube-left">
             
+<div class="cube-excerpt" id="cube-excerpt-Hexo播放Bilibili的视频">
+    <header class="cube-excerpt-header">
+        <h1><a href="/2019/02/01/Hexo播放Bilibili的视频/">Hexo播放Bilibili的视频</a></h1>
+        <div class="cube-excerpt-header-msg">
+            <div class="cube-excerpt-date">
+                <i class="cube-icon cube-icon-date" aria-hidden="true"></i>
+                2019-02-01
+            </div>
+            <div class="cube-excerpt-tags">
+                <i class="cube-icon cube-icon-tag" aria-hidden="true"></i>
+                
+                <a href="/tags/Hexo/" class="cube-excerpt-tag-link">#Hexo</a>
+                
+                <a href="/tags/Bilibili/" class="cube-excerpt-tag-link">#Bilibili</a>
+                
+            </div>
+        </div>
+    </header>
+    <article class="cube-excerpt-entry cube-markdown">
+        
+        
+           <p>Bilibili好在无广告，速度也挺快，无奈B站官方的视频嵌入是Flash的形式，但B站又是支持HTML5播放的，那么问题来了，外站如何嵌入HTML5的播放形式呢？<br>首先，先在b站找到视频的cid和aid码（这样）<br><img src="https://ae01.alicdn.com/kf/HTB1KT.hS9zqK1RjSZFjq6zlCFXaX.jpg" alt=""><br>复制下面的代码，换成你要的cid和aid码<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;iframe id=sbrxp src=&quot;//player.bilibili.com/player.html?aid=11200262&amp;cid=18527724&amp;page=1&quot; scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot; style=&quot;width: 640px; height: 430px; max-width: 100%&quot;&gt; &lt;/iframe&gt;</span><br></pre></td></tr></table></figure></p>
+<p>美中不足的两点是，没有找到办法禁止视频的自动缓冲、禁止发送弹幕栏的显示。如果你找到了更好的办法，欢迎留言交流～</p>
+<p><iframe id="sbrxp" src="//player.bilibili.com/player.html?aid=37422203&cid=68199661&page=2" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 960px; height: 645px; max-width: 100%"> </iframe><br>附：本文参考了<br><a href="https://www.jianshu.com/p/457c11fea5e7" target="_blank" rel="noopener">https://www.jianshu.com/p/457c11fea5e7</a></p>
+
+        
+    </article>
+    <footer class="cube-excerpt-footer">
+        <a class="cube-excerpt-more" href="/2019/02/01/Hexo播放Bilibili的视频/">阅读全文</a>
+    </footer>
+</div>
+
 <div class="cube-excerpt" id="cube-excerpt-新年快乐">
     <header class="cube-excerpt-header">
         <h1><a href="/2019/01/01/新年快乐/">新年快乐</a></h1>
@@ -270,39 +302,6 @@
     </article>
     <footer class="cube-excerpt-footer">
         <a class="cube-excerpt-more" href="/2018/12/02/TheBeatles/">阅读全文</a>
-    </footer>
-</div>
-
-<div class="cube-excerpt" id="cube-excerpt-Hexo添加live2d看板动画">
-    <header class="cube-excerpt-header">
-        <h1><a href="/2018/12/01/Hexo添加live2d看板动画/">Hexo添加live2d看板动画</a></h1>
-        <div class="cube-excerpt-header-msg">
-            <div class="cube-excerpt-date">
-                <i class="cube-icon cube-icon-date" aria-hidden="true"></i>
-                2018-12-01
-            </div>
-            <div class="cube-excerpt-tags">
-                <i class="cube-icon cube-icon-tag" aria-hidden="true"></i>
-                
-                <a href="/tags/Hexo/" class="cube-excerpt-tag-link">#Hexo</a>
-                
-                <a href="/tags/Github/" class="cube-excerpt-tag-link">#Github</a>
-                
-            </div>
-        </div>
-    </header>
-    <article class="cube-excerpt-entry cube-markdown">
-        
-        
-           <p>首先，安装npm包：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install --save hexo-helper-live2d</span><br></pre></td></tr></table></figure></p>
-<p>然后在hexo的配置文件_config.yml中添加如下配置:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">live2d:</span><br><span class="line">  enable: true</span><br><span class="line">  scriptFrom: local</span><br><span class="line">  pluginRootPath: live2dw/</span><br><span class="line">  pluginJsPath: lib/</span><br><span class="line">  pluginModelPath: assets/</span><br><span class="line">  tagMode: false</span><br><span class="line">  debug: false</span><br><span class="line">  model:</span><br><span class="line">    use: live2d-widget-model-shizuku</span><br><span class="line">  display:</span><br><span class="line">    position: right</span><br><span class="line">    width: 150</span><br><span class="line">    height: 300</span><br><span class="line">  mobile:</span><br><span class="line">    show: true</span><br></pre></td></tr></table></figure></p>
-<p>详细配置可以参考文档：<br><a href="https://github.com/EYHN/hexo-helper-live2d/blob/master/README.zh-CN.md" target="_blank" rel="noopener">https://github.com/EYHN/hexo-helper-live2d/blob/master/README.zh-CN.md</a><br>然后下载模型:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install live2d-widget-model-shizuku</span><br></pre></td></tr></table></figure></p>
-<p>模型名称可以到这里参考:<a href="https://github.com/xiazeyu/live2d-widget-models" target="_blank" rel="noopener">https://github.com/xiazeyu/live2d-widget-models</a><br>一些模型的预览可以在这里:<a href="https://huaji8.top/post/live2d-plugin-2.0/" target="_blank" rel="noopener">https://huaji8.top/post/live2d-plugin-2.0/</a>  </p>
-
-        
-    </article>
-    <footer class="cube-excerpt-footer">
-        <a class="cube-excerpt-more" href="/2018/12/01/Hexo添加live2d看板动画/">阅读全文</a>
     </footer>
 </div>
 
@@ -421,8 +420,8 @@
     <a title="一个会代码却不会算法的屑">一个会代码却不会算法的屑</a>
     
     <div class="count">
-        <a class="count articles"><span>36</span>文章</a>
-        <a class="count tags"><span>16</span>标签</a>
+        <a class="count articles"><span>37</span>文章</a>
+        <a class="count tags"><span>17</span>标签</a>
         <a class="count categories"><span>4</span>分类</a>
     </div>
 </div>
@@ -460,7 +459,7 @@
                     <span>1</span>
                 </p>
                 <p class="title">
-                    <a href="/2019/06/16/JOJO的奇妙冒险/" title="JOJO的奇妙冒险">JOJO的奇妙冒险</a>
+                    <a href="/2019/07/13/萌新的第一次FULL COMBO/" title="萌新的第一次FULL COMBO!">萌新的第一次FULL COMBO!</a>
                 </p>
             </div>
             
@@ -474,7 +473,7 @@
                     <span>2</span>
                 </p>
                 <p class="title">
-                    <a href="/2019/06/15/Himitsu的绳艺画集/" title="Himitsu的绳艺画集">Himitsu的绳艺画集</a>
+                    <a href="/2019/06/16/JOJO的奇妙冒险/" title="JOJO的奇妙冒险">JOJO的奇妙冒险</a>
                 </p>
             </div>
         </li>
@@ -487,7 +486,7 @@
                     <span>3</span>
                 </p>
                 <p class="title">
-                    <a href="/2019/06/07/高考加油/" title="高考加油">高考加油</a>
+                    <a href="/2019/06/15/Himitsu的绳艺画集/" title="Himitsu的绳艺画集">Himitsu的绳艺画集</a>
                 </p>
             </div>
         </li>
@@ -500,7 +499,7 @@
                     <span>4</span>
                 </p>
                 <p class="title">
-                    <a href="/2019/06/02/丁聚酚/" title="丁聚酚">丁聚酚</a>
+                    <a href="/2019/06/07/高考加油/" title="高考加油">高考加油</a>
                 </p>
             </div>
         </li>
@@ -513,7 +512,7 @@
                     <span>5</span>
                 </p>
                 <p class="title">
-                    <a href="/2019/05/11/linux最佳发行版-win10/" title="linux最佳发行版---win10">linux最佳发行版---win10</a>
+                    <a href="/2019/06/02/丁聚酚/" title="丁聚酚">丁聚酚</a>
                 </p>
             </div>
         </li>
@@ -536,17 +535,17 @@
         </div>
         
         
-        <div class="cube-box-bg ">
+        <div class="cube-box ">
             <a href="/categories/ACGN/">#ACGN</a>
         </div>
         
         
-        <div class="cube-box-bg ">
+        <div class="cube-box ">
             <a href="/categories/自然科学/">#自然科学</a>
         </div>
         
         
-        <div class="cube-box-bg ">
+        <div class="cube-box ">
             <a href="/categories/人文科学/">#人文科学</a>
         </div>
         
@@ -562,7 +561,7 @@
     <div class="cube-boxs">
         
         
-        <div class="cube-box-bg ">
+        <div class="cube-box ">
             <a href="/tags/GitHub/">#GitHub</a>
         </div>
         
@@ -572,13 +571,8 @@
         </div>
         
         
-        <div class="cube-box-bg ">
+        <div class="cube-box ">
             <a href="/tags/Hexo/">#Hexo</a>
-        </div>
-        
-        
-        <div class="cube-box-bg ">
-            <a href="/tags/Github/">#Github</a>
         </div>
         
         
@@ -588,21 +582,16 @@
         
         
         <div class="cube-box-bg ">
-            <a href="/tags/JOJO/">#JOJO</a>
-        </div>
-        
-        
-        <div class="cube-box ">
             <a href="/tags/Markdown/">#Markdown</a>
         </div>
         
         
         <div class="cube-box ">
-            <a href="/tags/Pixiv/">#Pixiv</a>
+            <a href="/tags/Github/">#Github</a>
         </div>
         
         
-        <div class="cube-box-bg ">
+        <div class="cube-box ">
             <a href="/tags/音乐/">#音乐</a>
         </div>
         
@@ -613,12 +602,27 @@
         
         
         <div class="cube-box ">
-            <a href="/tags/Windows/">#Windows</a>
+            <a href="/tags/Pixiv/">#Pixiv</a>
         </div>
         
         
         <div class="cube-box-bg ">
+            <a href="/tags/JOJO/">#JOJO</a>
+        </div>
+        
+        
+        <div class="cube-box ">
+            <a href="/tags/Windows/">#Windows</a>
+        </div>
+        
+        
+        <div class="cube-box ">
             <a href="/tags/搜索引擎/">#搜索引擎</a>
+        </div>
+        
+        
+        <div class="cube-box ">
+            <a href="/tags/万物起源/">#万物起源</a>
         </div>
         
         
@@ -628,16 +632,16 @@
         
         
         <div class="cube-box ">
-            <a href="/tags/万物起源/">#万物起源</a>
-        </div>
-        
-        
-        <div class="cube-box-bg ">
             <a href="/tags/树莓派/">#树莓派</a>
         </div>
         
         
-        <div class="cube-box-bg ">
+        <div class="cube-box ">
+            <a href="/tags/MUSE-DASH/">#MUSE DASH</a>
+        </div>
+        
+        
+        <div class="cube-box ">
             <a href="/tags/gitalk/">#gitalk</a>
         </div>
         
