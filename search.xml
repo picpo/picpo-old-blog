@@ -57,7 +57,7 @@
   <entry>
     <title><![CDATA[给博客中插入音乐]]></title>
     <url>%2F2019%2F05%2F02%2F%E7%BB%99%E5%8D%9A%E5%AE%A2%E4%B8%AD%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%2F</url>
-    <content type="text"><![CDATA[gitment的事，让我先鸽一下。（如图）可以用一下这个插件hexo-tag-aplayer：https://github.com/grzhan/hexo-tag-aplayer安装：1npm install hexo-tag-aplayer 在markdown插入以下代码：1&#123;% aplayer &quot;码头姑娘&quot; &quot;杜美心&quot; &quot;https://www.perpicpo.cn/music/碼頭姑娘.mp3&quot; &quot;https://ae01.alicdn.com/kf/HTB12scxTSzqK1RjSZPcq6zTepXa5.jpg&quot; &quot;autoplay&quot; %&#125; ok，完事了。本文参考https://www.jianshu.com/p/26a7fc7cc185]]></content>
+    <content type="text"><![CDATA[gitment的事，让我先鸽一下。（如图）可以用一下这个插件hexo-tag-aplayer：https://github.com/grzhan/hexo-tag-aplayer安装：1npm install hexo-tag-aplayer 在markdown插入以下代码：1&#123;% aplayer &quot;码头姑娘&quot; &quot;杜美心&quot; &quot;https://picpo.github.io/music/碼頭姑娘.mp3&quot; &quot;https://ae01.alicdn.com/kf/HTB12scxTSzqK1RjSZPcq6zTepXa5.jpg&quot; &quot;autoplay&quot; %&#125; ok，完事了。本文参考https://www.jianshu.com/p/26a7fc7cc185]]></content>
       <categories>
         <category>野生技术协会</category>
       </categories>
